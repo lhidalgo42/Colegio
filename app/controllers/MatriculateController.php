@@ -1,16 +1,13 @@
 <?php
 
-class MatriculasController extends \BaseController {
+class MatriculateController extends \BaseController {
 
 	/**
 	 * Display a listing of the resource.
 	 *
 	 * @return Response
 	 */
-	public function index()
-	{
-		//
-	}
+
 
 
 	/**
@@ -18,9 +15,14 @@ class MatriculasController extends \BaseController {
 	 *
 	 * @return Response
 	 */
-	public function create()
+	public function index()
 	{
-		//
+        if (Auth::user()->roles_id == 1 || Auth::user()->roles_id == 3 || Auth::user()->roles_id == 4)
+        {
+            return View::make('matriculate.index');
+        }
+
+        return View::make('/');
 	}
 
 
@@ -29,9 +31,14 @@ class MatriculasController extends \BaseController {
 	 *
 	 * @return Response
 	 */
-	public function store()
+	public function create()
 	{
-		//
+        if (Auth::user()->roles_id == 1 || Auth::user()->roles_id == 3 || Auth::user()->roles_id == 4)
+        {
+            return View::make('matriculate.new');
+        }
+
+        return View::make('/');
 	}
 
 
@@ -81,15 +88,6 @@ class MatriculasController extends \BaseController {
 	{
 		//
 	}
-    public function options()
-    {
-        if (Auth::check())
-        {
-            return View::make('matriculas.options');
-        }
-
-        return View::make('pages.index');
-    }
 
 
 }

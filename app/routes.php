@@ -9,7 +9,26 @@
 | and give it the Closure to execute when that URI is requested.
 |
 */
-Route::get('/', 'PagesController@index'); // index
-Route::get('/select', 'PagesController@select'); // Select
-Route::get('/matriculas/options', 'MatriculasController@options'); // Opciones de Matricula
-Route::get('/admin/index', 'AdminController@index'); // inicio admin
+
+
+/*
+|--------------------------------------------------------------------------
+| Sessions and Authentication
+|--------------------------------------------------------------------------
+|
+*/
+Route::get('/', 'SessionController@create'); // index
+Route::post('/login', 'SessionController@store');
+
+/*
+|--------------------------------------------------------------------------
+| Home Pages
+|--------------------------------------------------------------------------
+|
+*/
+Route::group(array('before' => 'auth'), function() {
+    Route::get('/select', 'UserController@options'); // Select
+    Route::get('/matriculate', 'MatriculateController@index'); // Opciones de Matricula
+    Route::get('/matriculate/index', 'MatriculateController@create'); // Opciones de Matricula
+    Route::get('/admin/index', 'AdminController@index'); // inicio admin
+});

@@ -70,21 +70,3 @@ function verificarRut( Objeto )
         return true;
     }
 }
-$("usuario").validator();
-
-function enviar(){
-    var postData = $("#usuario").serialize();
-
-    $.ajax({ url: 'ajax/verificarPassUsuario.php',
-        data: postData,
-        type: 'post',
-        success: function(output) {
-            if(output == 1) {
-                window.location.href = "vistas/decision.php";
-            }
-            else{
-                $('#mensaje').html("<small><h4>usuario o Clave incorrecta</h4></small>");
-            }
-        }
-    });
-}
