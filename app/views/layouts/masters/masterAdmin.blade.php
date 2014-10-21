@@ -39,7 +39,7 @@
 <body>
 <div id="wrapper">
 
-@include('layouts/partials/navbarAdmin')
+@include('...partials.navbarAdmin')
     @yield('content')
 
 </div>

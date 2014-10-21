@@ -23,11 +23,3 @@
 {{ HTML::style('css/index.css') }}
 
 @stop
-
-@section('js')
-
-@stop
-
-@section('footer')
-
-@stop

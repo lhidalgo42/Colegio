@@ -32,3 +32,13 @@ Route::group(array('before' => 'auth'), function() {
     Route::get('/matriculate/index', 'MatriculateController@create'); // Opciones de Matricula
     Route::get('/admin/index', 'AdminController@index'); // inicio admin
 });
+
+Route::get("getData", function()
+{
+
+    $posts = DB::table("banks")->get();
+    return Response::json(array(
+        "posts"        =>        $posts
+    ));
+
+});

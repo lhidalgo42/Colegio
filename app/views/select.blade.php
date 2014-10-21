@@ -1,4 +1,4 @@
-@extends('layouts.master-index')
+@extends('layouts.masters.master-index')
 
 @section('content')
 
@@ -17,17 +17,8 @@
 </form>
 
 @stop
-
 @section('css')
 
 {{ HTML::style('css/index.css') }}
-
-@stop
-
-@section('js')
-
-@stop
-
-@section('footer')
 
 @stop
