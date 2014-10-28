@@ -48,35 +48,4 @@
             <div class="tab-pane fade" id="plus">...</div>
         </div>
 {{ Form::close() }}
-        <div class="row" ng-view>
-            {{HTML::script('https://ajax.googleapis.com/ajax/libs/angularjs/1.3.0/angular.min.js')}}
-            {{ HTML::script('js/app.js') }}
-            {{ HTML::script('js/controllers.js') }}
-        </div>
-
-<div class="row">
-    <div class="large-12 columns">
-        <label>Filtra tu búsqueda: </label>
-        <input type="text" ng-model="buscador" />
-    </div>
-    <div class="large-12 columns">
-        <label>Establece un orden: </label>
-        <select ng-model="tipoOrden">
-            <option value="">Ordena por Id</option>
-            <option value="id">Ascendente</option>
-            <option value="-id">Descendente</option>
-        </select>
-    </div>
-</div>
-
-<div class="row">
-    <h1 class="subheader">Combinando Laravel 4 y AngularJS</h1>
-    <ul>
-        <li ng-repeat="data in datos|filter:buscador|orderBy:tipoOrden" class="panel callout radius">
-            <p>Id: {[ data.id ]} </p>
-            <p>Título: {[ data.name ]}</p>
-            <p>Contenido: {[ data.SBIF ]}</p>
-        </li>
-    </ul>
-</div>
 @stop
