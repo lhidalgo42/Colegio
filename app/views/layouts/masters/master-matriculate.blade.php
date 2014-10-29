@@ -33,12 +33,7 @@
 
 <!-- #############Content##############-->
 <div class="container" style="padding-top: 50px;">
-
     @yield('content')
-
-    <div class="footer">
-        @yield('footer')
-    </div>
 </div>
 <!-- #############/Content##############-->
 

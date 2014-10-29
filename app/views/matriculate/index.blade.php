@@ -1,25 +1,29 @@
-@extends('...layouts.master-index')
+@extends('...layouts.master-matriculate')
 
 @section('content')
 
-<div class="container-fluid">
-            <form class="form-signin" style="padding-top: 30px;">
-                <h2 class="form-signin-heading"><center>Ingresar</center>   </h2>
-                <h5 class="form-signin-heading"><center>Seleccione como desea ingresar</center>   </h5>
-                <br>
-                <br>
-				<a href="/matriculate/index" class="btn btn-large btn-block">Matricular Alumnos Nuevos</a>
-				@if(1==2)
-				<a href="#" class="btn btn-large btn-block" disabled>Matricular Alumnos Antiguos</a>
-				@endif
-                <div id="mensaje"></div> <!-- div para mostrar mensajes de error -->
-            </form>
-        </div> <!-- /container -->
+<form  action="javascript:preguntar()">
+<!--Despliega Errores-->
+ <p><span id="mensaje" class="alert-danger"></span></p><br>
+<div id="padres">@include('partals/parents')</div>
+<div class="clearfix"></div>
+<div id="ninos" class="opaco">@include('partials/students')</div>
+<div class="clearfix"></div>
+<div id="coutaIncorporacion" class="pagosContainer opaco">
+	<div><input type="button" id="cIncBtn" class="btn btn-block btn-large" value="PAGAR CUOTA INCORPORACION"></div>
+	<div id="cInc" class="pago">@include('partials/pay_incorporate')</div>
+</div>
+<div id="documentos" class="pagosContainer opaco">
+	<div><input type="button" id="cDocBtn" value="PAGAR DOCUMENTOS" class="btn btn-block btn-large"></div>
+	<div id="cDoc" class="pago">@include('partials/documents')</div>
+</div>
+<div id="almuerzos" class="pagosContainer opaco">
+	<div><input type="button" id="cAlmBtn" class="btn btn-block btn-large" value="PAGAR ALMUERZOS"></div>
+	<div id="cAlm" class="pago">@include('partials.lunch')</div>
 
-@stop
-
-@section('css')
-
-{{ HTML::style('css/index.css') }}
+</div>
+    </div>
+<button type="submit" class="btn btn-success btn-block btn-large"><strong>Siguente</strong></button>
+</form>
 
 @stop
