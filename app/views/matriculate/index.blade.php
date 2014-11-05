@@ -7,9 +7,9 @@
  <p><span id="mensaje" class="alert-danger"></span></p><br>
 <div id="padres">@include('matriculate.partials.parents')</div>
 <div class="clearfix"></div>
-<div id="ninos" class="opaco">@include('matriculate.partials.students')</div>
+<div id="ninos">@include('matriculate.partials.students')</div>
 <div class="clearfix"></div>
-<div id="coutaIncorporacion" class="pagosContainer opaco">
+<div id="coutaIncorporacion" class="pagosContainer">
 	<div><input type="button" id="cIncBtn" class="btn btn-block btn-large" value="PAGAR CUOTA INCORPORACION"></div>
 	<div id="cInc" class="pago">@include('matriculate.partials.pay_incorporate')</div>
 </div>
