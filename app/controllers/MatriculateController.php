@@ -35,7 +35,7 @@ class MatriculateController extends \BaseController {
 	{
         if (Auth::user()->roles_id == 1 || Auth::user()->roles_id == 3 || Auth::user()->roles_id == 4)
         {
-            return View::make('matriculate.new');
+            return View::make('matriculate.index');
         }
 
         return View::make('/');
