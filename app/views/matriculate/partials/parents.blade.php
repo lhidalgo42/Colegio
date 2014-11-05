@@ -1,4 +1,4 @@
-<table class="table table-bordered">
+<table class="table table-bordered" id="parents">
   <tr>
     <td><strong><i class="fa fa-users"></i> Familia</strong></td>
      <td>{{Form::text('familia',Input::old('familia'),array('class' => 'col-md-3 form-control','disabled' => 'disabled')); }}</td>

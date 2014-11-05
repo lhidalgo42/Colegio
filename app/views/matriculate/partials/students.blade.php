@@ -1,4 +1,4 @@
-<table border="1" class="table table-bordered" id="tablaAlumnos">
+<table class="table table-bordered">
 <thead>
   <tr>
     <td rowspan="2"><center><strong>NOMBRE DE LOS NIÑOS</strong></center></td>
@@ -18,16 +18,17 @@
     <td><center>2 Semestre</center></td>
   </tr>
   </thead>
-  <?php 
-  $cursos=array("Kinder","1ro Basico","2do Basico","3ro Basico","4to Basico", "5to Basico","6to Basico","7mo Basico","8vo Basico");
-  for($i=1;$i<5;$i++)
-  {?>
-  <tr>  
-    <td class="span2"><a id="modalNino<?php echo $i; ?>" role="button" onClick="MostrarNino(<?php echo $i; ?>)" class="btn" data-toggle="modal" nombre="" nuevo="1 apellidoP="" apellidoM="" fechanac="" colegioanterior="" almuerzo="" sexo="">Nombre</a></td>
-    
+  <tbody id="students">
+  <?php $data_students = array("rut","nombre","apellido_p","apellido_m","fecha_nac","colegio_anterior","almuerzo","sexo"); ?>
+  <?php for($i=0;$i<4;$i++) {?>
+  <tr data-id="{{$i}}">
+    <td class="span2"><a role="button"  class="btn">Nombre</a></td>
+        <?php for($i=0;$i<count($data_students);$i++){ ?>
+        {{Form::hidden('students_'.$i.'_'.$data_students[$i], Input::old('students_'.$i.'_'.$data_students[$i])); }}
+        <?php } ?>
     <td class="span1">
-<select id="Curso<?php echo $i; ?>" onChange="curso(<?php echo $i; ?>)" class="input-small"><option></option>
-    <?php for($e=0;$e<9;$e++){ ?><option value="<?php echo $cursos[$e]; ?>"><?php echo $cursos[$e]; ?></option> <?php } ?></select></td>
+<select id="Curso<?php echo $i; ?>" class="input-small">
+    </select></td>
     
     <td class="span1"><input type="number" class="span1" min="0" id="<?php echo"bolM".$i.""?>" value="0" ></td>
     
@@ -53,6 +54,7 @@
 <input type="number" style="width:30px;" max="100" min="0" id="<?php echo"2sem".$i.""?>" value="0"></div></td>
     
   </tr>
+  </tbody>
   <?php 
   }
   ?>

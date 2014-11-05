@@ -35,19 +35,11 @@ class MatriculateController extends \BaseController {
 	{
         if (Auth::user()->roles_id == 1 || Auth::user()->roles_id == 3 || Auth::user()->roles_id == 4)
         {
-            dd($_POST);// Guardamos en un arreglo los datos del usuario.
-            $userdata = array(
-                'rut' => Input::get('rut'),
-                'password'=> Input::get('pass')
-            );
+            //dd($_POST);// Guardamos en un arreglo los datos del usuario.
             // Validamos los datos y además mandamos como un segundo parámetro la opción de recordar el usuario.
-            if(Auth::attempt($userdata, Input::get('remember', 0)))
-            {
-                // De ser datos válidos nos mandara a la bienvenida
-                return Redirect::to('/select');
-            }
+
             // En caso de que la autenticación haya fallado manda un mensaje al formulario de login y también regresamos los valores enviados con withInput().
-            return Redirect::to('/')
+            return Redirect::to('/matriculate/')
                 ->with('mensaje_error', 'Tus datos son incorrectos')
                 ->withInput();
         }

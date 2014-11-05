@@ -4,7 +4,7 @@
 
 {{ Form::open(array('url' => '/matriculate/create/')) }}
 <!--Despliega Errores-->
- <p><span id="mensaje" class="alert-danger"></span></p><br>
+{{ Session::get('mensaje_error') }}
 
 <div id="padres">@include('matriculate.partials.parents')</div>
 <div class="clearfix"></div>
@@ -21,7 +21,6 @@
 <div id="almuerzos" class="pagosContainer opaco">
 	<div><input type="button" id="cAlmBtn" class="btn btn-block btn-large" value="PAGAR ALMUERZOS"></div>
 	<div id="cAlm" class="pago">@include('matriculate.partials.lunch')</div>
-
 </div>
     </div>
 <button type="submit" class="btn btn-success btn-block btn-large"><strong>Siguente</strong></button>
