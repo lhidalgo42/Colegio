@@ -2,9 +2,10 @@
 
 @section('content')
 
-<form  action="javascript:preguntar()">
+{{ Form::open(array('url' => '/matriculate/create/')) }}
 <!--Despliega Errores-->
  <p><span id="mensaje" class="alert-danger"></span></p><br>
+
 <div id="padres">@include('matriculate.partials.parents')</div>
 <div class="clearfix"></div>
 <div id="ninos">@include('matriculate.partials.students')</div>
@@ -24,6 +25,6 @@
 </div>
     </div>
 <button type="submit" class="btn btn-success btn-block btn-large"><strong>Siguente</strong></button>
-</form>
+{{ Form::close() }}
 
 @stop

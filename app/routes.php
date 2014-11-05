@@ -29,7 +29,7 @@ Route::post('/login', 'SessionController@store');
 Route::group(array('before' => 'auth'), function() {
     Route::get('/select', 'UserController@options'); // Select
     Route::get('/matriculate', 'MatriculateController@index'); // Opciones de Matricula
-    Route::get('/matriculate/index', 'MatriculateController@create'); // Opciones de Matricula
+    Route::post('/matriculate/create/', 'MatriculateController@create'); // Opciones de Matricula
     Route::get('/admin/index', 'AdminController@index'); // inicio admin
 });
 
