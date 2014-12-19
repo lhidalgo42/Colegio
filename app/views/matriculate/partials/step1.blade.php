@@ -132,7 +132,6 @@
 
 	</div>
 <script>
-	$("input").blur(function(){this.value=this.value.toUpperCase();});
 	$("#MomRut").blur(function(){verificarRut(this)});
 	$("#DadRut").blur(function(){verificarRut(this)});
 	//TODO Completar Familia y Agregar el Apoderado Economico.

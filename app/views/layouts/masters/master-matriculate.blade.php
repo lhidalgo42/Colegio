@@ -36,9 +36,14 @@
 <body>
 
 <!-- #############Content##############-->
-<div class="container" style="padding-top: 50px;">
+<div class="container" style="padding-top: 30px;">
     @yield('content')
 </div>
+<script>
+    $(document).ready(function(){
+        $("input").blur(function(){this.value=this.value.toUpperCase();});
+    });
+</script>
 <!-- #############/Content##############-->
 
 </body>
