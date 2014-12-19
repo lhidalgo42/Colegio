@@ -1,7 +1,5 @@
 //validacion del rut ingresado
-function disableIngresar(){
-    $('#ingresar').attr('disabled','disabled');
-}
+
 function verificarRut( Objeto )
 {
     var tmpstr = "";

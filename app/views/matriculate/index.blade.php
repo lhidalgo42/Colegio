@@ -1,29 +1,25 @@
-@extends('...layouts.masters.master-matriculate')
+@extends('layouts.masters.master-index')
 
 @section('content')
 
-{{ Form::open(array('url' => '/matriculate/create/')) }}
-<!--Despliega Errores-->
-{{ Session::get('mensaje_error') }}
+    <form class="form-signin" >
+        <h2 class="form-signin-heading" style="margin-top:-10px;text-align: center;">Ingresar </h2>
+        <h5 class="form-signin-heading" style="text-align: center;">Seleccione como desea ingresar</h5>
+        @if( Auth::user()->roles_id == 1 || Auth::user()->roles_id == 3 || Auth::user()->roles_id == 4)
+            <a href="/matriculate/new" class="btn btn-large btn-block">Matricular</a>
+        @endif
+        @if(Auth::user()->roles_id == 1 || Auth::user()->roles_id == 3 || Auth::user()->roles_id == 4)
+            <a href="/matriculate/old" class="btn btn-large btn-block">Matricular Alumno Antiguo</a>
+        @endif
+        @if(Auth::user()->roles_id == 1 || Auth::user()->roles_id == 3 || Auth::user()->roles_id == 4)
+            <a href="/matriculate/review" class="btn btn-large btn-block">Revisar Cartolas Anteriores</a>
+        @endif
+            <a href="/logout" class="btn btn-large btn-block btn-danger">Salir</a>
+    </form>
 
-<div id="padres">@include('matriculate.partials.parents')</div>
-<div class="clearfix"></div>
-<div id="ninos">@include('matriculate.partials.students')</div>
-<div class="clearfix"></div>
-<div id="coutaIncorporacion" class="pagosContainer">
-	<div><input type="button" id="cIncBtn" class="btn btn-block btn-large" value="PAGAR CUOTA INCORPORACION"></div>
-	<div id="cInc" class="pago">@include('matriculate.partials.pay_incorporate')</div>
-</div>
-<div id="documentos" class="pagosContainer opaco">
-	<div><input type="button" id="cDocBtn" value="PAGAR DOCUMENTOS" class="btn btn-block btn-large"></div>
-	<div id="cDoc" class="pago">@include('matriculate.partials.documents')</div>
-</div>
-<div id="almuerzos" class="pagosContainer opaco">
-	<div><input type="button" id="cAlmBtn" class="btn btn-block btn-large" value="PAGAR ALMUERZOS"></div>
-	<div id="cAlm" class="pago">@include('matriculate.partials.lunch')</div>
-</div>
-    </div>
-<button type="submit" class="btn btn-success btn-block btn-large"><strong>Siguente</strong></button>
-{{ Form::close() }}
+@stop
+@section('css')
+
+    {{ HTML::style('css/index.css') }}
 
 @stop

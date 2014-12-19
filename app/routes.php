@@ -19,6 +19,7 @@
 */
 Route::get('/', 'SessionController@create'); // index
 Route::post('/login', 'SessionController@store');
+Route::get('/logout','SessionController@destroy');
 
 /*
 |--------------------------------------------------------------------------
@@ -28,9 +29,28 @@ Route::post('/login', 'SessionController@store');
 */
 Route::group(array('before' => 'auth'), function() {
     Route::get('/select', 'UserController@options'); // Select
-    Route::get('/matriculate', 'MatriculateController@index'); // Opciones de Matricula
-    Route::post('/matriculate/create/', 'MatriculateController@create'); // Opciones de Matricula
+});
+/*
+|--------------------------------------------------------------------------
+| Admin Pages
+|--------------------------------------------------------------------------
+|
+*/
+Route::group(array('before' => 'auth'), function() {
     Route::get('/admin/index', 'AdminController@index'); // inicio admin
+});
+/*
+|--------------------------------------------------------------------------
+| Matriculate Pages
+|--------------------------------------------------------------------------
+|
+*/
+Route::group(array('before' => 'auth'), function() {
+    Route::get('/matriculate', 'MatriculateController@index'); // Opciones de Matricula
+    Route::get('/matriculate/new', 'MatriculateController@create'); // Crear Matricula
+    Route::post('/matriculate/review', 'MatriculateController@finish'); // Revisar la Matricula Creada
+    Route::get('/matriculate/review', 'MatriculateController@finish'); // Ver las Matriculas Listado
+    Route::get('/matriculate/reset', 'MatriculateController@reset'); // Ver las Matriculas Listado
 });
 
 Route::get("getData", function()
