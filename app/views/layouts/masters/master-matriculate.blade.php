@@ -13,6 +13,7 @@
     <!-- Bootstrap core CSS -->
     {{HTML::style('http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css')}}
     {{HTML::style('http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css')}}
+    {{HTML::style('packages/css/bootstrap-datetimepicker.min.css')}}
 
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -26,7 +27,9 @@
          {{HTML::script('http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js')}}
          {{HTML::script('http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js')}}
          <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-         {{HTML::script('http://getbootstrap.com/assets/js/ie10-viewport-bug-workaround.js')}}
+      {{HTML::script('packages/js/moment-with-locales.js')}}
+      {{HTML::script('packages/js/bootstrap-datetimepicker.js')}}
+
          {{HTML::script('js/rut.js')}}
 
 </head>

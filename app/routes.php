@@ -49,7 +49,7 @@ Route::group(array('before' => 'auth'), function() {
     Route::get('/matriculate', 'MatriculateController@index'); // Opciones de Matricula
     Route::get('/matriculate/new', 'MatriculateController@create'); // Crear Matricula
     Route::post('/matriculate/review', 'MatriculateController@finish'); // Revisar la Matricula Creada
-    Route::get('/matriculate/review', 'MatriculateController@finish'); // Ver las Matriculas Listado
+    Route::get('/matriculate/review', 'MatriculateController@review'); // Ver las Matriculas Listado
     Route::get('/matriculate/reset', 'MatriculateController@reset'); // Ver las Matriculas Listado
 });
 
