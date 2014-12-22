@@ -4,14 +4,12 @@
 <script>
 	var alumno = 1;
 </script>
-	<div class="col-lg-12 col-xs-12 col-md-12">
-		<div class="col-sm-12">
-			<div class="pull-right col-sm-1"><button class="btn btn-default" type="button" id="next" data-loading-text="Cargando ..." autocomplete="off">Siguente</button></div>
-			<div class="pull-left col-sm-1"><button class="btn btn-default" type="button" id="prev" data-loading-text="Cargando ..." autocomplete="off">Anterior</button></div>
-		</div>
-
+<div class="col-lg-12 col-xs-12 col-md-12" style="padding-bottom: 30px;">
+	<div class="col-sm-12">
+		<div class="pull-right col-sm-1"><button class="btn btn-default" type="button" id="next" data-loading-text="Cargando ..." autocomplete="off">Siguente</button></div>
+		<div class="pull-left col-sm-1"><button class="btn btn-default" type="button" id="prev" data-loading-text="Cargando ..." autocomplete="off">Anterior</button></div>
 	</div>
-
+</div>
 	<div role="tabpanel" style="padding-top: 50px;">
 
 		<!-- Nav tabs -->
@@ -38,13 +36,6 @@
 		</div>
 
 	</div>
-<div class="col-lg-12 col-xs-12 col-md-12">
-	<div class="col-sm-12">
-		<div class="pull-right col-sm-1"><button class="btn btn-default" type="button" id="next" data-loading-text="Cargando ..." autocomplete="off">Siguente</button></div>
-		<div class="pull-left col-sm-1"><button class="btn btn-default" type="button" id="prev" data-loading-text="Cargando ..." autocomplete="off">Anterior</button></div>
-	</div>
-
-</div>
 <script>
 	$("#add").click(function(){
 		alumno = alumno+1;

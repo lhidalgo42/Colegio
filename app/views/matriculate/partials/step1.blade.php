@@ -1,6 +1,12 @@
 @extends('...layouts.masters.master-matriculate')
 
 @section('content')
+	<div class="col-lg-12 col-xs-12 col-md-12" style="padding-bottom: 30px;">
+		<div class="col-sm-12">
+			<div class="pull-right col-sm-1"><button class="btn btn-default" type="button" id="next" data-loading-text="Cargando ..." autocomplete="off">Siguente</button></div>
+			<div class="pull-left col-sm-1"><button class="btn btn-default disabled" type="button" id="prev" data-loading-text="Cargando ..." autocomplete="off">Anterior</button></div>
+		</div>
+	</div>
 	<div class="col-lg-12 col-xs-12 col-md-12">
 		<div class="form-group">
 			<label for="Family" class="col-sm-2 control-label">Familia :</label>
@@ -125,11 +131,6 @@
 				<input type="text" class="form-control" id="DadWorkAddress" name="DadWorkAddress" placeholder="Direccion de Trabjo">
 			</div>
 		</div>
-	</div>
-	<div class="col-sm-12" style="padding-bottom: 30px;">
-		<div class="pull-right col-sm-1"><button class="btn btn-default" type="button" id="next" data-loading-text="Cargando ..." autocomplete="off">Siguente</button></div>
-		<div class="pull-left col-sm-1"><button class="btn btn-default disabled">Anterior</button></div>
-
 	</div>
 <script>
 	$("#MomRut").blur(function(){verificarRut(this)});
