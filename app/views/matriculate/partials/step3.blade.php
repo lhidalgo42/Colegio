@@ -2,28 +2,48 @@
 
 @section('content')
 
-{{ Form::open(array('url' => '/matriculate/create/')) }}
-<!--Despliega Errores-->
-{{ Session::get('mensaje_error') }}
+	<div class="col-sm-9">
+		<div id="body">
 
-<div id="padres">@include('matriculate.partial.parents')</div>
-<div class="clearfix"></div>
-<div id="ninos">@include('matriculate.partial.students')</div>
-<div class="clearfix"></div>
-<div id="coutaIncorporacion" class="pagosContainer">
-	<div><input type="button" id="cIncBtn" class="btn btn-block btn-large" value="PAGAR CUOTA INCORPORACION"></div>
-	<div id="cInc" class="pago">@include('matriculate.partial.pay_incorporate')</div>
-</div>
-<div id="documentos" class="pagosContainer opaco">
-	<div><input type="button" id="cDocBtn" value="PAGAR DOCUMENTOS" class="btn btn-block btn-large"></div>
-	<div id="cDoc" class="pago">@include('matriculate.partial.documents')</div>
-</div>
-<div id="almuerzos" class="pagosContainer opaco">
-	<div><input type="button" id="cAlmBtn" class="btn btn-block btn-large" value="PAGAR ALMUERZOS"></div>
-	<div id="cAlm" class="pago">@include('matriculate.partial.lunch')</div>
-</div>
-    </div>
-<button type="submit" class="btn btn-success btn-block btn-large"><strong>Siguente</strong></button>
-{{ Form::close() }}
+		</div>
+	</div>
+	<div class="col-sm-3">
+		<div class="panel-group" id="cuotas">
+			<a class="list-group-item list-group-item-success" data-toggle="collapse" data-parent="#cuotas" href="#cuotaIncorporacion">
+				Cuota de Incorporacion
+			</a>
+			<div id="cuotaIncorporacion" class="panel-collapse collapse in">
+				<div class="list-group">
+					@for($a=0;$a<12;$a++)
+						<?php $i = $a + 1; ?>
+						@if($i==1)
+							<a href="#" data-id="pagoI{{$i}}" class="list-group-item active">
+						@else
+							<a href="#" data-id="pagoI{{$i}}" class="list-group-item">
+						@endif
+							Pago {{$i}}
+							</a>
+					@endfor
+				</div>
+			</div>
+			<a class="list-group-item list-group-item-success" data-toggle="collapse" data-parent="#cuotas" href="#pagoCuotas">
+				Pago de Cuotas
+			</a>
+			<div id="pagoCuotas" class="panel-collapse collapse">
+				<div class="list-group">
+					@for($a=0;$a<12;$a++)
+						<?php $i = $a + 1; ?>
+						@if($i==1)
+							<a href="#" data-id="pagoC{{$i}}" class="list-group-item active">
+						@else
+							<a href="#" data-id="pagoC{{$i}}" class="list-group-item">
+						@endif
+							Pago {{$i}}
+							</a>
+					@endfor
+				</div>
+			</div>
+		</div>
+	</div>
 
 @stop

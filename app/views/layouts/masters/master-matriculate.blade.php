@@ -14,7 +14,11 @@
     {{HTML::style('http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css')}}
     {{HTML::style('http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css')}}
     {{HTML::style('packages/css/bootstrap-datetimepicker.min.css')}}
-
+    <style>
+        #tabs > a{
+            margin: 10px;
+        }
+    </style>
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
       {{HTML::script('http://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js')}}

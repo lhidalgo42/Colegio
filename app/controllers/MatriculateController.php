@@ -45,7 +45,7 @@ class MatriculateController extends \BaseController {
 			}
 			else
 			{
-				Session::put('step', 2);
+				Session::put('step', 4);
 				return View::make('matriculate.partials.step'.Session::get('step'));
 			}
             //dd($_POST);// Guardamos en un arreglo los datos del usuario.

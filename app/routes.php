@@ -52,13 +52,12 @@ Route::group(array('before' => 'auth'), function() {
     Route::get('/matriculate/review', 'MatriculateController@review'); // Ver las Matriculas Listado
     Route::get('/matriculate/reset', 'MatriculateController@reset'); // Ver las Matriculas Listado
 });
-
-Route::get("getData", function()
-{
-
-    $posts = DB::table("banks")->get();
-    return Response::json(array(
-        "posts"        =>        $posts
-    ));
-
+/*
+|--------------------------------------------------------------------------
+| Consultas Ajax
+|--------------------------------------------------------------------------
+|
+*/
+Route::group(array('before' => 'auth'), function() {
+    Route::post('/ajax/addStudent', 'AjaxController@MatriculateStudents');
 });
