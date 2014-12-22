@@ -46,6 +46,7 @@
 <script>
     $(document).ready(function(){
         $("input").blur(function(){this.value=this.value.toUpperCase();});
+        $(".rut").blur(function(){verificarRut(this)});
     });
 </script>
 <!-- #############/Content##############-->

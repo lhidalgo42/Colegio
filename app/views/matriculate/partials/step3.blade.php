@@ -35,7 +35,7 @@
 					<input class="form-control" type="text" placeholder="Ingrese Numero de Cheque">
 				</div>
 				<div class="form-group col-sm-6" style="padding-top: 30px;">
-					<input class="form-control" type="text" placeholder="Ingrese Monto de Pago">
+					<input class="form-control pago" type="text" placeholder="Ingrese Monto de Pago">
 				</div><!-- PAGO -->
 				<strong>Detalles del Pago</strong><hr style="margin-top: 0px;"><!-- PAGO -->
 				<div class="form-group col-sm-4" style="padding-top: 30px;">

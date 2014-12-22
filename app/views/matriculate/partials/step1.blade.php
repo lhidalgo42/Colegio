@@ -24,7 +24,7 @@
 			<input type="hidden" id="MomSex" name="MomSex" value="0">
 			<div class="form-group">
 				<label for="MomRut">Rut </label> <small style="padding-left: 5px;">Si No Conoce el Rut Deje el Campo Vacio.</small>
-				<input type="text" class="form-control" id="MomRut" name="MomRut" placeholder="ej 11.111.111.-k ">
+				<input type="text" class="form-control rut" id="MomRut" name="MomRut" placeholder="ej 11.111.111.-k ">
 			</div>
 
 			<div class="form-group">
@@ -46,7 +46,7 @@
 			<hr>
 			<div class="form-group">
 				<label for="MomBorn">Fecha de Nacimiento</label>
-				<input type="text" class="form-control" id="MomBorn" name="MomBorn" placeholder="Fecha de Nacimiento" data-date-format="YYYY-MM-DD">
+				<input type="text" class="form-control dates" id="MomBorn" name="MomBorn" placeholder="Fecha de Nacimiento" data-date-format="YYYY-MM-DD">
 			</div>
 			<div class="form-group">
 				<label for="MomWork">Profesión</label>
@@ -80,7 +80,7 @@
 			<input type="hidden" id="DadSex" name="DadSex" value="1">
 			<div class="form-group">
 				<label for="DadRut">Rut </label> <small style="padding-left: 5px;">Si No Conoce el Rut Deje el Campo Vacio.</small>
-				<input type="text" class="form-control" id="DadRut" name="DadRut" placeholder="ej 11.111.111.-k ">
+				<input type="text" class="form-control rut" id="DadRut" name="DadRut" placeholder="ej 11.111.111.-k ">
 			</div>
 
 			<div class="form-group">
@@ -102,7 +102,7 @@
 			<hr>
 			<div class="form-group">
 				<label for="DadBorn">Fecha de Nacimiento</label>
-				<input type="text" class="form-control" id="DadBorn" name="DadBorn" placeholder="Fecha de Nacimiento" data-date-format="YYYY-MM-DD">
+				<input type="text" class="form-control dates" id="DadBorn" name="DadBorn" placeholder="Fecha de Nacimiento" data-date-format="YYYY-MM-DD">
 			</div>
 			<div class="form-group">
 				<label for="DadWork">Profesión</label>
@@ -133,8 +133,7 @@
 		</div>
 	</div>
 <script>
-	$("#MomRut").blur(function(){verificarRut(this)});
-	$("#DadRut").blur(function(){verificarRut(this)});
+
 	//TODO Completar Familia y Agregar el Apoderado Economico.
 	$("#MomLastName1").blur(function(){
 
@@ -143,12 +142,7 @@
 
 	});
 	$(function () {
-		$('#MomBorn').datetimepicker({
-			language: 'es',
-			defaultDate: "1980-01-01",
-			pickTime: false
-		});
-		$('#DadBorn').datetimepicker({
+		$('.dates').datetimepicker({
 			language: 'es',
 			defaultDate: "1980-01-01",
 			pickTime: false
