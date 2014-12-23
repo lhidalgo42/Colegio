@@ -5,10 +5,6 @@ class ClinicTableSeeder extends Seeder {
     public function run()
     {
         Clinic::create([
-            'name' => 'No Aplica',
-            'price' => '0',
-        ]);
-        Clinic::create([
             'name' => 'Clinica Alemana',
             'price' => '42000',
         ]);
@@ -20,6 +16,9 @@ class ClinicTableSeeder extends Seeder {
             'name' => 'Otra',
             'price' => '42000',
         ]);
-
+        Clinic::create([
+            'name' => 'No Aplica',
+            'price' => '0',
+        ]);
     }
 }

@@ -9,8 +9,10 @@
 	</div>
 	<div class="col-sm-9">
 		<div id="body">
-			<div id="pagoI1">
-				<h3>Cuota de Incorporacion - Pago 1</h3><hr style="margin-top: 0px;"><!-- PAGO -->
+			@for($i=1;$i<=12;$i++)
+				<?php if($i==1)$class="block";else $class="none"; ?>
+			<div id="pagoI{{$i}}" style="display: {{$class}}">
+				<h3>Cuota de Incorporacion - Pago {{$i}}</h3><hr style="margin-top: 0px;"><!-- PAGO -->
 				<div class="form-group col-sm-4">
 					<input type="number" class="form-control" placeholder="Numero de Boleta">
 				</div>
@@ -18,37 +20,90 @@
 					<input type="text" class="form-control dates" placeholder="Fecha de Pago" data-date-format="YYYY-MM-DD">
 				</div>
 				<strong>Modo de Pago</strong><hr style="margin-top: 0px;"><!-- PAGO -->
-				<div class="form-group col-sm-6">
-					<button class="btn btn-success">Cheque</button>
-					<button class="btn btn-primary">Letra</button>
-					<button class="btn btn-primary">Efectivo</button>
+				<div class="col-sm-6">
+					<div class="form-group">
+						<select class="form-control">
+							<option>Seleccione Banco</option>
+							@foreach(Bank::all() as $bank)
+								<option value="{{$bank->id}}">{{$bank->name}}</option>
+							@endforeach
+						</select>
+					</div>
+					<div class="form-group">
+						<input class="form-control" type="text" placeholder="Ingrese Numero de Cheque">
+					</div>
 				</div>
-				<div class="form-group col-sm-6">
-					<select class="form-control">
-						<option>Seleccione Banco</option>
-						@foreach(Bank::all() as $bank)
-						<option value="{{$bank->id}}">{{$bank->name}}</option>
-						@endforeach
-					</select>
+				<div class="col-sm-6">
+					<div class="form-group button-pay">
+						<button type="button" class="btn btn-primary col-sm-4 active">Cheque</button>
+						<button type="button" class="btn btn-primary col-sm-4">Letra</button>
+						<button type="button" class="btn btn-primary col-sm-4">Efectivo</button>
+					</div>
+					<div class="form-group" style="padding-top: 30px;">
+						<input class="form-control pago" type="text" placeholder="Ingrese Monto de Pago">
+					</div>
 				</div>
-				<div class="form-group col-sm-6" style="padding-top: 30px;">
-					<input class="form-control" type="text" placeholder="Ingrese Numero de Cheque">
-				</div>
-				<div class="form-group col-sm-6" style="padding-top: 30px;">
-					<input class="form-control pago" type="text" placeholder="Ingrese Monto de Pago">
-				</div><!-- PAGO -->
+
 				<strong>Detalles del Pago</strong><hr style="margin-top: 0px;"><!-- PAGO -->
+
 				<div class="form-group col-sm-4" style="padding-top: 30px;">
 					<input class="form-control" type="number" placeholder="Cuota de Incorporacion">
 				</div>
 				<div class="form-group col-sm-4" style="padding-top: 30px;">
-					<input class="form-control" type="number" placeholder="Colegiatura">
+					<input class="form-control disabled" type="number" placeholder="Colegiatura" value="0" disabled>
 				</div>
 				<div class="form-group col-sm-4" style="padding-top: 30px;">
-					<input class="form-control" type="number" placeholder="Materiales">
+					<input class="form-control disabled" type="number" placeholder="Materiales" value="0" disabled>
 				</div>
 			</div>
+			@endfor
+			@for($i=1;$i<=12;$i++)
+				<?php $class="none"; ?>
+				<div id="pagoC{{$i}}"  style="display: {{$class}}">
+					<h3>Cuota de Colegiatura - Pago {{$i}}</h3><hr style="margin-top: 0px;"><!-- PAGO -->
+					<div class="form-group col-sm-4">
+						<input type="number" class="form-control" placeholder="Numero de Boleta">
+					</div>
+					<div class="form-group col-sm-4 col-sm-offset-4">
+						<input type="text" class="form-control dates" placeholder="Fecha de Pago" data-date-format="YYYY-MM-DD">
+					</div>
+					<strong>Modo de Pago</strong><hr style="margin-top: 0px;"><!-- PAGO -->
+					<div class="col-sm-6">
+						<div class="form-group">
+							<select class="form-control">
+								<option>Seleccione Banco</option>
+								@foreach(Bank::all() as $bank)
+									<option value="{{$bank->id}}">{{$bank->name}}</option>
+								@endforeach
+							</select>
+						</div>
+						<div class="form-group">
+							<input class="form-control" type="text" placeholder="Ingrese Numero de Cheque">
+						</div>
+					</div>
+					<div class="col-sm-6">
+						<div class="form-group button-pay">
+							<button type="button" class="btn btn-primary col-sm-4 active">Cheque</button>
+							<button type="button" class="btn btn-primary col-sm-4">Letra</button>
+							<button type="button" class="btn btn-primary col-sm-4">Efectivo</button>
+						</div>
+						<div class="form-group" style="padding-top: 30px;">
+							<input class="form-control pago" type="text" placeholder="Ingrese Monto de Pago">
+						</div>
+					</div>
+						<strong>Detalles del Pago</strong><hr style="margin-top: 0px;"><!-- PAGO -->
 
+					<div class="form-group col-sm-4" style="padding-top: 30px;">
+						<input class="form-control disabled" type="number" placeholder="Cuota de Incorporacion" value="0" disabled>
+					</div>
+					<div class="form-group col-sm-4" style="padding-top: 30px;">
+						<input class="form-control" type="number" placeholder="Colegiatura">
+					</div>
+					<div class="form-group col-sm-4" style="padding-top: 30px;">
+						<input class="form-control" type="number" placeholder="Materiales">
+					</div>
+				</div>
+			@endfor
 		</div>
 	</div>
 	<div class="col-sm-3">
@@ -89,19 +144,13 @@
 			</div>
 		</div>
 	</div>
-	<div class="col-lg-12 col-xs-12 col-md-12" style="padding-bottom: 30px;">
-		<div class="col-sm-12">
-			<div class="pull-right col-sm-1"><button class="btn btn-default" type="button" id="next" data-loading-text="Cargando ..." autocomplete="off">Siguente</button></div>
-			<div class="pull-left col-sm-1"><button class="btn btn-default" type="button" id="prev" data-loading-text="Cargando ..." autocomplete="off">Anterior</button></div>
-		</div>
-	</div>
 	<script>
 		$(function(){
 			$('.dates').datetimepicker({
 				language: 'es',
-				defaultDate: "Today",
+				defaultDate: "Now",
 				pickTime: false
-			}).data("DateTimePicker").show().data("DateTimePicker").hide();
+			});
 		})
 	</script>
 

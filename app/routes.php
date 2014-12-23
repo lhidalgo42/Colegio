@@ -59,5 +59,5 @@ Route::group(array('before' => 'auth'), function() {
 |
 */
 Route::group(array('before' => 'auth'), function() {
-    Route::post('/ajax/addStudent', 'AjaxController@MatriculateStudents');
+    Route::post('/ajax/step/{step}', 'AjaxController@MatriculateStep');
 });

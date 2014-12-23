@@ -40,13 +40,19 @@
 <body>
 
 <!-- #############Content##############-->
-<div class="container" style="padding-top: 30px;">
+<div class="container">
     @yield('content')
 </div>
 <script>
     $(document).ready(function(){
         $("input").blur(function(){this.value=this.value.toUpperCase();});
+
         $(".rut").blur(function(){verificarRut(this)});
+
+        $(".button-pay").children("button").click(function(){
+            $(this).parent().children().removeClass("active");
+            $(this).addClass("active");
+        });
     });
 </script>
 <!-- #############/Content##############-->

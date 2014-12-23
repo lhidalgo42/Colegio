@@ -7,26 +7,6 @@ class AjaxController extends \BaseController {
 	 *
 	 * @return Response
 	 */
-	public function MatriculateStudents()
-	{
-				$id = Input::get('id');
-
-		echo '<div role="tabpanel" class="tab-pane fade" id="alumno'.$id.'">';
-		echo '<div class="col-sm-12"><button class="btn btn-danger">Eliminar Alumno '.$id.'<i class="fa fa-times pull-right"></i></button></div>';
-			echo '<div class="col-sm-6 col-sm-offset-3">';
-				echo Helpers::add("Alumno".$id."Rut","Rut del Alumno","Si No Conoce el Rut Deje el Campo Vacio.");
-			echo '</div>';
-			echo '<div class="col-sm-4">';
-				echo Helpers::add("Alumno".$id."Name","Nombre");
-			echo '</div>';
-			echo '<div class="col-sm-4">';
-				echo Helpers::add("Alumno".$id."LastName1","Apellido Paterno");
-			echo '</div>';
-			echo '<div class="col-sm-4">';
-				echo Helpers::add("Alumno".$id."LastName2","Apellido Materno");
-			echo '</div>';
-		echo '</div>';
-	}
 
 
 	/**
@@ -34,10 +14,24 @@ class AjaxController extends \BaseController {
 	 *
 	 * @return Response
 	 */
-	public function create()
+	public function MatriculateStep($key)
 	{
-		//
+		$step = Session::get('step');
+		Session::put('step',$key);
+		if($step==1)
+		{
+		Session::put('step1', Input::get('data');
+		}
+		if($step==2)
+		{
+			Session::put('step2', Input::get('data'));
+		}
+		if($step==3)
+		{
+			Session::put('step3', Input::get('data'));
+		}
 	}
+
 
 
 	/**
