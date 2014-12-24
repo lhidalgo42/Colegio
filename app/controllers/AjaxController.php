@@ -20,7 +20,7 @@ class AjaxController extends \BaseController {
 		Session::put('step',$key);
 		if($step==1)
 		{
-		Session::put('step1', Input::get('data');
+		Session::put('step1', Input::get('data'));
 		}
 		if($step==2)
 		{

@@ -167,7 +167,6 @@
 							workAddress:$("#DadWorkAddress").val()
 						}
 					};
-		console.log(data);
 		$.ajax({
 			url: "/ajax/step/2",
 			data:{'data':data},

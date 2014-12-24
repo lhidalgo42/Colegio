@@ -21,6 +21,7 @@
 					<input type="text" class="form-control" placeholder="Nombre">
 				</div>
 				<div class="form-group col-sm-4">
+					{{Form::input()}}
 					<input type="text" class="form-control" placeholder="Apellido Paterno">
 				</div>
 				<div class="form-group col-sm-4">
