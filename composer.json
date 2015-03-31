@@ -3,20 +3,32 @@
 	"description": "The Laravel Framework.",
 	"keywords": ["framework", "laravel"],
 	"license": "MIT",
+	"type": "project",
 	"require": {
 		"laravel/framework": "4.2.*",
-        "barryvdh/laravel-dompdf": "0.4.*",
-        "maatwebsite/excel": "~1.2.1"
+        "laracasts/validation"                 : "~1.0",
+        "barryvdh/laravel-dompdf"              : "0.4.x",
+        "freshwork/chilean-bundle": "dev-master"
+
+	},
+	"require-dev": {
+		"way/generators": "2.*",
+		"fzaninotto/faker": "v1.3.0",
+        "barryvdh/laravel-debugbar"              : "~1.8"
+
 	},
 	"autoload": {
-		"classmap": [
-			"app/commands",
-			"app/controllers",
-			"app/models",
-			"app/database/migrations",
-			"app/database/seeds",
-			"app/tests/TestCase.php"
-		]
+	  "classmap": [
+		"app/commands",
+		"app/controllers",
+		"app/models",
+		"app/database/migrations",
+		"app/database/seeds",
+		"app/tests/TestCase.php"
+	  ],
+	  "psr-0": {
+		"Acme": "app/"
+	  }
 	},
 	"scripts": {
 		"post-install-cmd": [

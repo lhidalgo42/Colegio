@@ -17,9 +17,9 @@
 |--------------------------------------------------------------------------
 |
 */
-Route::get('/', 'SessionController@create'); // index
-Route::post('/login', 'SessionController@store');
-Route::get('/logout','SessionController@destroy');
+Route::get('/', ['as' => 'login', 'uses' => 'SessionsController@create']);
+Route::get('/logout', ['as' => 'logout', 'uses' => 'SessionsController@destroy']);
+Route::resource('sessions', 'SessionsController', ['only' => ['create', 'store', 'destroy']]);
 
 /*
 |--------------------------------------------------------------------------
@@ -28,17 +28,9 @@ Route::get('/logout','SessionController@destroy');
 |
 */
 Route::group(array('before' => 'auth'), function() {
-    Route::get('/select', 'UserController@options'); // Select
+    Route::get('/select',['as' => 'home', 'uses' => 'UsersController@index']); // Select
 });
-/*
-|--------------------------------------------------------------------------
-| Admin Pages
-|--------------------------------------------------------------------------
-|
-*/
-Route::group(array('before' => 'auth'), function() {
-    Route::get('/admin/index', 'AdminController@index'); // inicio admin
-});
+
 /*
 |--------------------------------------------------------------------------
 | Matriculate Pages

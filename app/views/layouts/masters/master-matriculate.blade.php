@@ -8,7 +8,7 @@
     <meta name="author" content="">
     <link rel="icon" href="favicon.ico">
 
-    <title>Starter Template for Bootstrap</title>
+    <title>Colegio Giordano Bruno</title>
 
     <!-- Bootstrap core CSS -->
     {{HTML::style('http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css')}}
@@ -43,18 +43,6 @@
 <div class="container">
     @yield('content')
 </div>
-<script>
-    $(document).ready(function(){
-        $("input").blur(function(){this.value=this.value.toUpperCase();});
-
-        $(".rut").blur(function(){verificarRut(this)});
-
-        $(".button-pay").children("button").click(function(){
-            $(this).parent().children().removeClass("active");
-            $(this).addClass("active");
-        });
-    });
-</script>
 <!-- #############/Content##############-->
 
 </body>
