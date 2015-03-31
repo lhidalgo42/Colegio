@@ -1,0 +1,17 @@
+{    
+	"name"        : " NeoGuard",
+	"dependencies": {
+        "bootstrap"              : "3.3.x",
+        "font-awesome"           : "~4.2.0",
+        "bootstrap.checkbox"     : "1.0.0",
+        "datatables"             : "~1.10.4",
+        "datatables-plugins"     : "~1.0.1",
+        "datatables-responsive"  : "~1.0.3",
+        "eonasdan-bootstrap-datetimepicker": "4.0.0",
+        "moment"                 : "2.9.0",
+        "sweetalert"             : "~0.5.0"
+    },
+        "resolutions": {
+                "bootstrap"      : "~3.3.x"
+        }
+}
