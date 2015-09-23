@@ -22,7 +22,7 @@ class TuitionsController extends \BaseController {
 	public function create()
 	{
 		$grades = Grade::lists('name','id');
-		$banks = Bank::all();
+		$banks = Bank::lists('name','id');
 		return View::make('tuition.new',compact('grades','banks'));
 	}
 

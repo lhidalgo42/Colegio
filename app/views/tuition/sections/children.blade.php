@@ -10,28 +10,34 @@
         <div class="tab-content " id="children-content">
             @foreach(range(1,4) as $number)
             <div id="alumno{{$number}}" class="tab-pane fade @if($number == 1)in active @endif">
-                <div class="form-group">
+                <div class="form-group col-md-6">
                     <label for="alumno{{$number}}RUT">RUT</label>
                     {{ Form::text('alumno'.$number.'RUT', Input::old('alumno'.$number.'RUT'), array('placeholder' => 'RUT','class' => 'form-control','id' => 'alumno'.$number.'RUT')) }}
                 </div>
-                <div class="form-group">
+                <div class="form-group col-md-6">
+                    <label for="alumno{{$number}}Grant">Beca %</label>
+                    <a href="#" data-toggle="tooltip" data-placement="top" title="Porcentaje de Beca del Alumno"><i
+                                class="fa fa-question-circle"></i></a>
+                    {{ Form::text('alumno'.$number.'Grant', Input::old('alumno'.$number.'Grant'), array('placeholder' => '% Beca','class' => 'form-control','id' => 'alumno'.$number.'Grant')) }}
+                </div>
+                <div class="form-group col-md-12">
                     <label for="alumno{{$number}}Name">Nombre</label>
                     {{ Form::text('alumno'.$number.'Name', Input::old('alumno'.$number.'Name'), array('placeholder' =>
                     'Nombre','class' => 'form-control alumnoName','id' => 'alumno'.$number.'Name','data-parent' => 'alumno'.$number)) }}
                 </div>
-                <div class="form-group">
+                <div class="form-group col-md-12">
                     <label for="alumno{{$number}}Lastname">Apellido Paterno</label>
                     {{ Form::text('alumno'.$number.'Lastname', Input::old('alumno'.$number.'Lastname'),
                     array('placeholder' => 'Apellido Paterno','class' => 'form-control alumnoLastname','id' => 'alumno'.$number.'
                     Lastname','data-parent' => 'alumno'.$number)) }}
                 </div>
-                <div class="form-group">
+                <div class="form-group col-md-12">
                     <label for="alumno{{$number}}Lastname2">Apellido Materno</label>
                     {{ Form::text('alumno'.$number.'Lastname2', Input::old('alumno'.$number.'Lastname2'),
                     array('placeholder' => 'Apellido Materno','class' => 'form-control','id' => 'alumno'.$number.'
                     Lastname2')) }}
                 </div>
-                <div class="form-group">
+                <div class="form-group col-md-12">
                     <label for="alumno{{$number}}Grade">Curso</label>
                     {{Form::select('alumno'.$number.'Grade',$grades,Input::old('alumno'.$number.'Grade'),array('class' => 'form-control','id' => 'alumno'.$number.'Grade'))}}
                 </div>

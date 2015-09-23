@@ -25,9 +25,9 @@
             </div>
             <div class="row">
                 <ul class="nav nav-pills nav-justified" id="tabs">
-                    <li class="active"><a data-toggle="tab" href="#parents">Padres</a></li>
-                    <li><a data-toggle="tab" href="#children">Alumnos</a></li>
-                    <li><a data-toggle="tab" href="#payments">Pagos</a></li>
+                    <li class="active"><a data-toggle="pill" href="#parents">Padres</a></li>
+                    <li><a data-toggle="pill" href="#children">Alumnos</a></li>
+                    <li><a data-toggle="pill" href="#payments">Pagos</a></li>
                 </ul>
             </div>
             <div class="tab-content" id="content">

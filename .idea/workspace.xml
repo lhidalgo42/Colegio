@@ -2,19 +2,77 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="78ab97fe-db38-4af9-bd93-e178ad7e6bd4" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/tuition/sections/children.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/tuition/sections/family.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/config/index.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/tuition/sections/parents.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/tuition/sections/payments.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/database/migrations/2015_09_22_113756_create_parents_table.php" afterPath="$PROJECT_DIR$/app/database/migrations/2015_09_22_113756_create_parents_table.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/database/migrations/2015_09_22_113937_create_children_table.php" afterPath="$PROJECT_DIR$/app/database/migrations/2015_09_22_113937_create_children_table.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/database/seeds/DatabaseSeeder.php" afterPath="$PROJECT_DIR$/app/database/seeds/DatabaseSeeder.php" />
+      <change type="DELETED" beforePath="C:\Users\Leoo\Desktop\Proyectos\Colegio\public\admin\css\bootstrap.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Leoo\Desktop\Proyectos\Colegio\public\admin\css\bootstrap.min.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Leoo\Desktop\Proyectos\Colegio\public\admin\css\plugins\dataTables.bootstrap.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Leoo\Desktop\Proyectos\Colegio\public\admin\css\plugins\metisMenu\metisMenu.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Leoo\Desktop\Proyectos\Colegio\public\admin\css\plugins\metisMenu\metisMenu.min.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Leoo\Desktop\Proyectos\Colegio\public\admin\css\plugins\morris.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Leoo\Desktop\Proyectos\Colegio\public\admin\css\plugins\social-buttons.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Leoo\Desktop\Proyectos\Colegio\public\admin\css\plugins\timeline.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Leoo\Desktop\Proyectos\Colegio\public\admin\css\sb-admin-2.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Leoo\Desktop\Proyectos\Colegio\public\admin\font-awesome-4.1.0\css\font-awesome.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Leoo\Desktop\Proyectos\Colegio\public\admin\font-awesome-4.1.0\css\font-awesome.min.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Leoo\Desktop\Proyectos\Colegio\public\admin\font-awesome-4.1.0\fonts\FontAwesome.otf" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Leoo\Desktop\Proyectos\Colegio\public\admin\font-awesome-4.1.0\fonts\fontawesome-webfont.eot" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Leoo\Desktop\Proyectos\Colegio\public\admin\font-awesome-4.1.0\fonts\fontawesome-webfont.svg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Leoo\Desktop\Proyectos\Colegio\public\admin\font-awesome-4.1.0\fonts\fontawesome-webfont.ttf" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Leoo\Desktop\Proyectos\Colegio\public\admin\font-awesome-4.1.0\fonts\fontawesome-webfont.woff" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Leoo\Desktop\Proyectos\Colegio\public\admin\font-awesome-4.1.0\less\bordered-pulled.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Leoo\Desktop\Proyectos\Colegio\public\admin\font-awesome-4.1.0\less\core.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Leoo\Desktop\Proyectos\Colegio\public\admin\font-awesome-4.1.0\less\fixed-width.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Leoo\Desktop\Proyectos\Colegio\public\admin\font-awesome-4.1.0\less\font-awesome.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Leoo\Desktop\Proyectos\Colegio\public\admin\font-awesome-4.1.0\less\icons.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Leoo\Desktop\Proyectos\Colegio\public\admin\font-awesome-4.1.0\less\larger.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Leoo\Desktop\Proyectos\Colegio\public\admin\font-awesome-4.1.0\less\list.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Leoo\Desktop\Proyectos\Colegio\public\admin\font-awesome-4.1.0\less\mixins.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Leoo\Desktop\Proyectos\Colegio\public\admin\font-awesome-4.1.0\less\path.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Leoo\Desktop\Proyectos\Colegio\public\admin\font-awesome-4.1.0\less\rotated-flipped.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Leoo\Desktop\Proyectos\Colegio\public\admin\font-awesome-4.1.0\less\spinning.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Leoo\Desktop\Proyectos\Colegio\public\admin\font-awesome-4.1.0\less\stacked.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Leoo\Desktop\Proyectos\Colegio\public\admin\font-awesome-4.1.0\less\variables.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Leoo\Desktop\Proyectos\Colegio\public\admin\font-awesome-4.1.0\scss\_bordered-pulled.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Leoo\Desktop\Proyectos\Colegio\public\admin\font-awesome-4.1.0\scss\_core.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Leoo\Desktop\Proyectos\Colegio\public\admin\font-awesome-4.1.0\scss\_fixed-width.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Leoo\Desktop\Proyectos\Colegio\public\admin\font-awesome-4.1.0\scss\_icons.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Leoo\Desktop\Proyectos\Colegio\public\admin\font-awesome-4.1.0\scss\_larger.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Leoo\Desktop\Proyectos\Colegio\public\admin\font-awesome-4.1.0\scss\_list.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Leoo\Desktop\Proyectos\Colegio\public\admin\font-awesome-4.1.0\scss\_mixins.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Leoo\Desktop\Proyectos\Colegio\public\admin\font-awesome-4.1.0\scss\_path.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Leoo\Desktop\Proyectos\Colegio\public\admin\font-awesome-4.1.0\scss\_rotated-flipped.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Leoo\Desktop\Proyectos\Colegio\public\admin\font-awesome-4.1.0\scss\_spinning.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Leoo\Desktop\Proyectos\Colegio\public\admin\font-awesome-4.1.0\scss\_stacked.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Leoo\Desktop\Proyectos\Colegio\public\admin\font-awesome-4.1.0\scss\_variables.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Leoo\Desktop\Proyectos\Colegio\public\admin\font-awesome-4.1.0\scss\font-awesome.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Leoo\Desktop\Proyectos\Colegio\public\admin\fonts\glyphicons-halflings-regular.eot" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Leoo\Desktop\Proyectos\Colegio\public\admin\fonts\glyphicons-halflings-regular.svg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Leoo\Desktop\Proyectos\Colegio\public\admin\fonts\glyphicons-halflings-regular.ttf" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Leoo\Desktop\Proyectos\Colegio\public\admin\fonts\glyphicons-halflings-regular.woff" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Leoo\Desktop\Proyectos\Colegio\public\admin\js\bootstrap.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Leoo\Desktop\Proyectos\Colegio\public\admin\js\bootstrap.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Leoo\Desktop\Proyectos\Colegio\public\admin\js\jquery-1.11.0.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Leoo\Desktop\Proyectos\Colegio\public\admin\js\plugins\dataTables\dataTables.bootstrap.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Leoo\Desktop\Proyectos\Colegio\public\admin\js\plugins\dataTables\jquery.dataTables.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Leoo\Desktop\Proyectos\Colegio\public\admin\js\plugins\flot\excanvas.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Leoo\Desktop\Proyectos\Colegio\public\admin\js\plugins\flot\flot-data.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Leoo\Desktop\Proyectos\Colegio\public\admin\js\plugins\flot\jquery.flot.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Leoo\Desktop\Proyectos\Colegio\public\admin\js\plugins\flot\jquery.flot.pie.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Leoo\Desktop\Proyectos\Colegio\public\admin\js\plugins\flot\jquery.flot.resize.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Leoo\Desktop\Proyectos\Colegio\public\admin\js\plugins\flot\jquery.flot.tooltip.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Leoo\Desktop\Proyectos\Colegio\public\admin\js\plugins\metisMenu\metisMenu.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Leoo\Desktop\Proyectos\Colegio\public\admin\js\plugins\metisMenu\metisMenu.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Leoo\Desktop\Proyectos\Colegio\public\admin\js\plugins\morris\morris-data.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Leoo\Desktop\Proyectos\Colegio\public\admin\js\plugins\morris\morris.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Leoo\Desktop\Proyectos\Colegio\public\admin\js\plugins\morris\morris.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Leoo\Desktop\Proyectos\Colegio\public\admin\js\plugins\morris\raphael.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Leoo\Desktop\Proyectos\Colegio\public\admin\js\sb-admin-2.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Leoo\Desktop\Proyectos\Colegio\public\admin\less\mixins.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Leoo\Desktop\Proyectos\Colegio\public\admin\less\sb-admin-2.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Leoo\Desktop\Proyectos\Colegio\public\admin\less\variables.less" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/TuitionsController.php" afterPath="$PROJECT_DIR$/app/controllers/TuitionsController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/filters.php" afterPath="$PROJECT_DIR$/app/filters.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/tuition/sections/children.blade.php" afterPath="$PROJECT_DIR$/app/views/tuition/sections/children.blade.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/tuition/new.blade.php" afterPath="$PROJECT_DIR$/app/views/tuition/new.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/routes.php" afterPath="$PROJECT_DIR$/app/routes.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/tuition/sections/payments.blade.php" afterPath="$PROJECT_DIR$/app/views/tuition/sections/payments.blade.php" />
     </list>
     <ignored path="colegio.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -39,49 +97,28 @@
       <file leaf-file-name="new.blade.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/tuition/new.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="6.6538463">
-              <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
+            <state vertical-scroll-proportion="-14.923077">
+              <caret line="27" column="59" selection-start-line="27" selection-start-column="59" selection-end-line="27" selection-end-column="59" />
               <folding>
-                <element signature="e#1244#1273#0#HTML" expanded="true" />
+                <element signature="e#1247#1276#0#HTML" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="children.blade.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="children.blade.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/tuition/sections/children.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.65384614">
-              <caret line="4" column="53" selection-start-line="4" selection-start-column="53" selection-end-line="4" selection-end-column="53" />
+            <state vertical-scroll-proportion="0.70071685">
+              <caret line="38" column="22" selection-start-line="38" selection-start-column="22" selection-end-line="38" selection-end-column="22" />
               <folding>
-                <marker date="1442980697016" expanded="true" signature="1076:1293" placeholder="..." />
-                <marker date="1442980697016" expanded="true" signature="1144:1292" placeholder="..." />
-                <marker date="1442980697016" expanded="true" signature="1480:1744" placeholder="..." />
-                <marker date="1442980697016" expanded="true" signature="1576:1709" placeholder="..." />
-                <marker date="1442980697016" expanded="true" signature="1576:1743" placeholder="..." />
-                <marker date="1442980697016" expanded="true" signature="1932:2150" placeholder="..." />
-                <marker date="1442980697016" expanded="true" signature="2030:2149" placeholder="..." />
+                <marker date="1442981692204" expanded="true" signature="1620:1837" placeholder="..." />
+                <marker date="1442981692204" expanded="true" signature="1688:1836" placeholder="..." />
+                <marker date="1442981692204" expanded="true" signature="2034:2298" placeholder="..." />
+                <marker date="1442981692204" expanded="true" signature="2130:2297" placeholder="..." />
+                <marker date="1442981692204" expanded="true" signature="2496:2714" placeholder="..." />
+                <marker date="1442981692204" expanded="true" signature="2594:2713" placeholder="..." />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="family.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/tuition/sections/family.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-9.153846">
-              <caret line="14" column="40" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="40" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TuitionsController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/controllers/TuitionsController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.2075472">
-              <caret line="23" column="44" selection-start-line="23" selection-start-column="44" selection-end-line="23" selection-end-column="44" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -96,11 +133,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="parents.blade.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="parents.blade.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/tuition/sections/parents.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.3046595">
+            <state vertical-scroll-proportion="-6.5384617">
               <caret line="10" column="145" selection-start-line="10" selection-start-column="145" selection-end-line="10" selection-end-column="145" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="payments.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/tuition/sections/payments.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-1.3076923">
+              <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="32" />
               <folding />
             </state>
           </provider>
@@ -153,16 +200,16 @@
         <option value="$PROJECT_DIR$/app/filters.php" />
         <option value="$PROJECT_DIR$/app/views/config/index.blade.php" />
         <option value="$PROJECT_DIR$/app/views/tuition/sections/children.php" />
-        <option value="$PROJECT_DIR$/app/views/tuition/sections/payments.blade.php" />
         <option value="$PROJECT_DIR$/app/database/seeds/GradesTableSeeder.php" />
         <option value="$PROJECT_DIR$/app/database/migrations/2015_09_22_113937_create_children_table.php" />
         <option value="$PROJECT_DIR$/app/database/seeds/DatabaseSeeder.php" />
-        <option value="$PROJECT_DIR$/app/controllers/TuitionsController.php" />
-        <option value="$PROJECT_DIR$/app/views/tuition/new.blade.php" />
         <option value="$PROJECT_DIR$/app/database/migrations/2015_09_22_113756_create_parents_table.php" />
-        <option value="$PROJECT_DIR$/app/views/tuition/sections/children.blade.php" />
         <option value="$PROJECT_DIR$/app/views/tuition/sections/family.blade.php" />
         <option value="$PROJECT_DIR$/app/views/tuition/sections/parents.blade.php" />
+        <option value="$PROJECT_DIR$/app/controllers/TuitionsController.php" />
+        <option value="$PROJECT_DIR$/app/views/tuition/sections/payments.blade.php" />
+        <option value="$PROJECT_DIR$/app/views/tuition/new.blade.php" />
+        <option value="$PROJECT_DIR$/app/views/tuition/sections/children.blade.php" />
       </list>
     </option>
   </component>
@@ -496,9 +543,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1370" height="744" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33587787" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33587787" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -862,34 +909,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/TuitionsController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.2075472">
-          <caret line="23" column="44" selection-start-line="23" selection-start-column="44" selection-end-line="23" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/database/seeds/DatabaseSeeder.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.9300912">
           <caret line="18" column="42" selection-start-line="18" selection-start-column="42" selection-end-line="18" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/database/seeds/GradesTableSeeder.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.9615384">
-          <caret line="3" column="23" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/tuition/sections/payments.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.0">
-          <caret line="0" column="42" selection-start-line="0" selection-start-column="42" selection-end-line="0" selection-end-column="42" />
           <folding />
         </state>
       </provider>
@@ -899,30 +922,6 @@
         <state vertical-scroll-proportion="0.4265233">
           <caret line="20" column="40" selection-start-line="20" selection-start-column="40" selection-end-line="20" selection-end-column="40" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/tuition/sections/family.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.153846">
-          <caret line="14" column="40" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/tuition/sections/children.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.65384614">
-          <caret line="4" column="53" selection-start-line="4" selection-start-column="53" selection-end-line="4" selection-end-column="53" />
-          <folding>
-            <marker date="1442980697016" expanded="true" signature="1076:1293" placeholder="..." />
-            <marker date="1442980697016" expanded="true" signature="1144:1292" placeholder="..." />
-            <marker date="1442980697016" expanded="true" signature="1480:1744" placeholder="..." />
-            <marker date="1442980697016" expanded="true" signature="1576:1709" placeholder="..." />
-            <marker date="1442980697016" expanded="true" signature="1576:1743" placeholder="..." />
-            <marker date="1442980697016" expanded="true" signature="1932:2150" placeholder="..." />
-            <marker date="1442980697016" expanded="true" signature="2030:2149" placeholder="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -942,21 +941,68 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/tuition/new.blade.php">
+    <entry file="file://$PROJECT_DIR$/app/database/seeds/GradesTableSeeder.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="6.6538463">
-          <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
-          <folding>
-            <element signature="e#1244#1273#0#HTML" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="-1.9615384">
+          <caret line="3" column="23" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/TuitionsController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.44821092">
+          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/tuition/sections/family.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4265233">
+          <caret line="14" column="40" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="40" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/tuition/sections/parents.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3046595">
+        <state vertical-scroll-proportion="-6.5384617">
           <caret line="10" column="145" selection-start-line="10" selection-start-column="145" selection-end-line="10" selection-end-column="145" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/tuition/sections/payments.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.3076923">
+          <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/tuition/new.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-14.923077">
+          <caret line="27" column="59" selection-start-line="27" selection-start-column="59" selection-end-line="27" selection-end-column="59" />
+          <folding>
+            <element signature="e#1247#1276#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/tuition/sections/children.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.70071685">
+          <caret line="38" column="22" selection-start-line="38" selection-start-column="22" selection-end-line="38" selection-end-column="22" />
+          <folding>
+            <marker date="1442981692204" expanded="true" signature="1620:1837" placeholder="..." />
+            <marker date="1442981692204" expanded="true" signature="1688:1836" placeholder="..." />
+            <marker date="1442981692204" expanded="true" signature="2034:2298" placeholder="..." />
+            <marker date="1442981692204" expanded="true" signature="2130:2297" placeholder="..." />
+            <marker date="1442981692204" expanded="true" signature="2496:2714" placeholder="..." />
+            <marker date="1442981692204" expanded="true" signature="2594:2713" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
