@@ -2,109 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="78ab97fe-db38-4af9-bd93-e178ad7e6bd4" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/avatar_2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/home.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/navs/left.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/login.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/login.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/tuition/new.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/sb-admin-2.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/sb-admin-2.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/navs/top.blade.php" />
-      <change type="DELETED" beforePath="C:\Users\Leoo\Desktop\Proyectos\Colegio\app\database\migrations\2015_03_31_014333_create_users_table.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Leoo\Desktop\Proyectos\Colegio\app\database\migrations\2015_03_31_014438_create_roles_table.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Leoo\Desktop\Proyectos\Colegio\app\database\migrations\2015_03_31_014456_create_profiles_table.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Leoo\Desktop\Proyectos\Colegio\app\storage\debugbar\.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Leoo\Desktop\Proyectos\Colegio\app\views\admin\index.blade.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Leoo\Desktop\Proyectos\Colegio\app\views\layouts\masters\master-index.blade.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Leoo\Desktop\Proyectos\Colegio\app\views\layouts\masters\master-matriculate.blade.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Leoo\Desktop\Proyectos\Colegio\app\views\layouts\masters\masterAdmin.blade.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Leoo\Desktop\Proyectos\Colegio\app\views\layouts\partials\navbarAdmin.blade.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Leoo\Desktop\Proyectos\Colegio\app\views\matriculate\index.blade.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Leoo\Desktop\Proyectos\Colegio\app\views\matriculate\partial\documents.blade.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Leoo\Desktop\Proyectos\Colegio\app\views\matriculate\partial\lunch.blade.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Leoo\Desktop\Proyectos\Colegio\app\views\matriculate\partial\parents.blade.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Leoo\Desktop\Proyectos\Colegio\app\views\matriculate\partial\pay_incorporate.blade.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Leoo\Desktop\Proyectos\Colegio\app\views\matriculate\partial\students.blade.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Leoo\Desktop\Proyectos\Colegio\app\views\matriculate\partials\review.blade.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Leoo\Desktop\Proyectos\Colegio\app\views\matriculate\partials\step1.blade.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Leoo\Desktop\Proyectos\Colegio\app\views\matriculate\partials\step2.blade.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Leoo\Desktop\Proyectos\Colegio\app\views\matriculate\partials\step3.blade.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Leoo\Desktop\Proyectos\Colegio\app\views\matriculate\partials\step4.blade.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Leoo\Desktop\Proyectos\Colegio\app\views\select.blade.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Leoo\Desktop\Proyectos\Colegio\public\css\bootstrap-combined.min.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Leoo\Desktop\Proyectos\Colegio\public\css\bootstrap-formhelpers.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Leoo\Desktop\Proyectos\Colegio\public\css\bootstrap-responsive.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Leoo\Desktop\Proyectos\Colegio\public\css\bootstrap-responsive.min.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Leoo\Desktop\Proyectos\Colegio\public\css\bootstrap.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Leoo\Desktop\Proyectos\Colegio\public\css\bootstrap.min.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Leoo\Desktop\Proyectos\Colegio\public\css\font-awesome\css\font-awesome-ie7.min.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Leoo\Desktop\Proyectos\Colegio\public\css\font-awesome\css\font-awesome.min.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Leoo\Desktop\Proyectos\Colegio\public\css\font-awesome\font\FontAwesome.otf" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Leoo\Desktop\Proyectos\Colegio\public\css\font-awesome\font\fontawesome-webfont.eot" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Leoo\Desktop\Proyectos\Colegio\public\css\font-awesome\font\fontawesome-webfont.svg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Leoo\Desktop\Proyectos\Colegio\public\css\font-awesome\font\fontawesome-webfont.ttf" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Leoo\Desktop\Proyectos\Colegio\public\css\font-awesome\font\fontawesome-webfont.woff" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Leoo\Desktop\Proyectos\Colegio\public\css\font-awesome\scss\_bootstrap.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Leoo\Desktop\Proyectos\Colegio\public\css\font-awesome\scss\_core.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Leoo\Desktop\Proyectos\Colegio\public\css\font-awesome\scss\_extras.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Leoo\Desktop\Proyectos\Colegio\public\css\font-awesome\scss\_icons.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Leoo\Desktop\Proyectos\Colegio\public\css\font-awesome\scss\_mixins.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Leoo\Desktop\Proyectos\Colegio\public\css\font-awesome\scss\_path.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Leoo\Desktop\Proyectos\Colegio\public\css\font-awesome\scss\_variables.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Leoo\Desktop\Proyectos\Colegio\public\css\font-awesome\scss\font-awesome-ie7.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Leoo\Desktop\Proyectos\Colegio\public\css\font-awesome\scss\font-awesome.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Leoo\Desktop\Proyectos\Colegio\public\css\matriculate\font-awesome-4.2.0\css\font-awesome.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Leoo\Desktop\Proyectos\Colegio\public\css\matriculate\font-awesome-4.2.0\css\font-awesome.min.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Leoo\Desktop\Proyectos\Colegio\public\css\matriculate\font-awesome-4.2.0\fonts\FontAwesome.otf" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Leoo\Desktop\Proyectos\Colegio\public\css\matriculate\font-awesome-4.2.0\fonts\fontawesome-webfont.eot" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Leoo\Desktop\Proyectos\Colegio\public\css\matriculate\font-awesome-4.2.0\fonts\fontawesome-webfont.svg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Leoo\Desktop\Proyectos\Colegio\public\css\matriculate\font-awesome-4.2.0\fonts\fontawesome-webfont.ttf" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Leoo\Desktop\Proyectos\Colegio\public\css\matriculate\font-awesome-4.2.0\fonts\fontawesome-webfont.woff" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Leoo\Desktop\Proyectos\Colegio\public\css\matriculate\font-awesome-4.2.0\less\bordered-pulled.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Leoo\Desktop\Proyectos\Colegio\public\css\matriculate\font-awesome-4.2.0\less\core.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Leoo\Desktop\Proyectos\Colegio\public\css\matriculate\font-awesome-4.2.0\less\fixed-width.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Leoo\Desktop\Proyectos\Colegio\public\css\matriculate\font-awesome-4.2.0\less\font-awesome.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Leoo\Desktop\Proyectos\Colegio\public\css\matriculate\font-awesome-4.2.0\less\icons.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Leoo\Desktop\Proyectos\Colegio\public\css\matriculate\font-awesome-4.2.0\less\larger.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Leoo\Desktop\Proyectos\Colegio\public\css\matriculate\font-awesome-4.2.0\less\list.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Leoo\Desktop\Proyectos\Colegio\public\css\matriculate\font-awesome-4.2.0\less\mixins.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Leoo\Desktop\Proyectos\Colegio\public\css\matriculate\font-awesome-4.2.0\less\path.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Leoo\Desktop\Proyectos\Colegio\public\css\matriculate\font-awesome-4.2.0\less\rotated-flipped.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Leoo\Desktop\Proyectos\Colegio\public\css\matriculate\font-awesome-4.2.0\less\spinning.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Leoo\Desktop\Proyectos\Colegio\public\css\matriculate\font-awesome-4.2.0\less\stacked.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Leoo\Desktop\Proyectos\Colegio\public\css\matriculate\font-awesome-4.2.0\less\variables.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Leoo\Desktop\Proyectos\Colegio\public\css\matriculate\font-awesome-4.2.0\scss\_bordered-pulled.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Leoo\Desktop\Proyectos\Colegio\public\css\matriculate\font-awesome-4.2.0\scss\_core.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Leoo\Desktop\Proyectos\Colegio\public\css\matriculate\font-awesome-4.2.0\scss\_fixed-width.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Leoo\Desktop\Proyectos\Colegio\public\css\matriculate\font-awesome-4.2.0\scss\_icons.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Leoo\Desktop\Proyectos\Colegio\public\css\matriculate\font-awesome-4.2.0\scss\_larger.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Leoo\Desktop\Proyectos\Colegio\public\css\matriculate\font-awesome-4.2.0\scss\_list.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Leoo\Desktop\Proyectos\Colegio\public\css\matriculate\font-awesome-4.2.0\scss\_mixins.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Leoo\Desktop\Proyectos\Colegio\public\css\matriculate\font-awesome-4.2.0\scss\_path.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Leoo\Desktop\Proyectos\Colegio\public\css\matriculate\font-awesome-4.2.0\scss\_rotated-flipped.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Leoo\Desktop\Proyectos\Colegio\public\css\matriculate\font-awesome-4.2.0\scss\_spinning.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Leoo\Desktop\Proyectos\Colegio\public\css\matriculate\font-awesome-4.2.0\scss\_stacked.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Leoo\Desktop\Proyectos\Colegio\public\css\matriculate\font-awesome-4.2.0\scss\_variables.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Leoo\Desktop\Proyectos\Colegio\public\css\matriculate\font-awesome-4.2.0\scss\font-awesome.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Leoo\Desktop\Proyectos\Colegio\public\css\sb-admin.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Leoo\Desktop\Proyectos\Colegio\public\js\app.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Leoo\Desktop\Proyectos\Colegio\public\js\controllers.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Leoo\Desktop\Proyectos\Colegio\public\js\index.js" afterPath="" />
-      <change type="MOVED" beforePath="C:\Users\Leoo\Desktop\Proyectos\Colegio\public\css\index.css" afterPath="$PROJECT_DIR$/public/css/dashboard.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/tuition/sections/children.blade.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/tuition/sections/family.blade.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/config/index.blade.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/tuition/sections/parents.blade.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/tuition/sections/payments.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/database/migrations/2015_09_22_113756_create_parents_table.php" afterPath="$PROJECT_DIR$/app/database/migrations/2015_09_22_113756_create_parents_table.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/database/migrations/2015_09_22_113937_create_children_table.php" afterPath="$PROJECT_DIR$/app/database/migrations/2015_09_22_113937_create_children_table.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/database/seeds/DatabaseSeeder.php" afterPath="$PROJECT_DIR$/app/database/seeds/DatabaseSeeder.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Acme/forms/LoginForm.php" afterPath="$PROJECT_DIR$/app/Acme/forms/LoginForm.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/SessionsController.php" afterPath="$PROJECT_DIR$/app/controllers/SessionsController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/UsersController.php" afterPath="$PROJECT_DIR$/app/controllers/UsersController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config/app.php" afterPath="$PROJECT_DIR$/app/config/app.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config/local/app.php" afterPath="$PROJECT_DIR$/app/config/local/app.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower.json" afterPath="$PROJECT_DIR$/bower.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.json" afterPath="$PROJECT_DIR$/composer.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/sessions/create.blade.php" afterPath="$PROJECT_DIR$/app/views/sessions/create.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/master.blade.php" afterPath="$PROJECT_DIR$/app/views/layouts/master.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/TuitionsController.php" afterPath="$PROJECT_DIR$/app/controllers/TuitionsController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/filters.php" afterPath="$PROJECT_DIR$/app/filters.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/tuition/new.blade.php" afterPath="$PROJECT_DIR$/app/views/tuition/new.blade.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/routes.php" afterPath="$PROJECT_DIR$/app/routes.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="colegio.iws" />
@@ -127,101 +36,71 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="2015_09_22_215601_create_permissions_table.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/database/migrations/2015_09_22_215601_create_permissions_table.php">
+      <file leaf-file-name="new.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/tuition/new.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.1320753">
-              <caret line="17" column="35" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
+            <state vertical-scroll-proportion="6.6538463">
+              <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
+              <folding>
+                <element signature="e#1244#1273#0#HTML" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="children.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/tuition/sections/children.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.65384614">
+              <caret line="4" column="53" selection-start-line="4" selection-start-column="53" selection-end-line="4" selection-end-column="53" />
+              <folding>
+                <marker date="1442980697016" expanded="true" signature="1076:1293" placeholder="..." />
+                <marker date="1442980697016" expanded="true" signature="1144:1292" placeholder="..." />
+                <marker date="1442980697016" expanded="true" signature="1480:1744" placeholder="..." />
+                <marker date="1442980697016" expanded="true" signature="1576:1709" placeholder="..." />
+                <marker date="1442980697016" expanded="true" signature="1576:1743" placeholder="..." />
+                <marker date="1442980697016" expanded="true" signature="1932:2150" placeholder="..." />
+                <marker date="1442980697016" expanded="true" signature="2030:2149" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="family.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/tuition/sections/family.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-9.153846">
+              <caret line="14" column="40" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="40" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PermissionsTableSeeder.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/database/seeds/PermissionsTableSeeder.php">
+      <file leaf-file-name="TuitionsController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/controllers/TuitionsController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.1698112">
-              <caret line="13" column="28" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
+            <state vertical-scroll-proportion="-3.2075472">
+              <caret line="23" column="44" selection-start-line="23" selection-start-column="44" selection-end-line="23" selection-end-column="44" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RolesTableSeeder.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/database/seeds/RolesTableSeeder.php">
+      <file leaf-file-name="GradesTableSeeder.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/database/seeds/GradesTableSeeder.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.9622642">
-              <caret line="3" column="22" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="22" />
+            <state vertical-scroll-proportion="-1.9615384">
+              <caret line="3" column="23" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="23" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DatabaseSeeder.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/database/seeds/DatabaseSeeder.php">
+      <file leaf-file-name="parents.blade.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/views/tuition/sections/parents.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.69101125">
-              <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Role.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/models/Role.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ClinicsTableSeeder.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/database/seeds/ClinicsTableSeeder.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.6415094">
-              <caret line="2" column="24" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="24" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="2015_09_22_114136_create_grades_table.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/database/migrations/2015_09_22_114136_create_grades_table.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.1923075">
-              <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UF.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/models/UF.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="2015_09_22_220012_create_banks_table.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/database/migrations/2015_09_22_220012_create_banks_table.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.962264">
-              <caret line="17" column="35" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BanksTableSeeder.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/database/seeds/BanksTableSeeder.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-69.96154">
-              <caret line="107" column="0" selection-start-line="107" selection-start-column="0" selection-end-line="107" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.3046595">
+              <caret line="10" column="145" selection-start-line="10" selection-start-column="145" selection-end-line="10" selection-end-column="145" />
               <folding />
             </state>
           </provider>
@@ -241,8 +120,6 @@
         <option value="$PROJECT_DIR$/composer.json" />
         <option value="$PROJECT_DIR$/app/config/app.php" />
         <option value="$PROJECT_DIR$/app/database/migrations/2015_09_22_113706_create_families_table.php" />
-        <option value="$PROJECT_DIR$/app/database/migrations/2015_09_22_113756_create_parents_table.php" />
-        <option value="$PROJECT_DIR$/app/database/migrations/2015_09_22_113937_create_children_table.php" />
         <option value="$PROJECT_DIR$/app/database/migrations/2015_09_22_114504_create_payment_types_table.php" />
         <option value="$PROJECT_DIR$/app/database/migrations/2015_09_22_114211_create_payments_table.php" />
         <option value="$PROJECT_DIR$/app/database/seeds/UsersTableSeeder.php" />
@@ -257,9 +134,6 @@
         <option value="$PROJECT_DIR$/public/js/sb-admin-2.js" />
         <option value="$PROJECT_DIR$/bower.json" />
         <option value="$PROJECT_DIR$/app/views/navs/top.blade.php" />
-        <option value="$PROJECT_DIR$/app/routes.php" />
-        <option value="$PROJECT_DIR$/app/controllers/TuitionsController.php" />
-        <option value="$PROJECT_DIR$/app/views/tuition/new.blade.php" />
         <option value="$PROJECT_DIR$/app/views/navs/left.blade.php" />
         <option value="$PROJECT_DIR$/app/database/migrations/2015_09_22_215310_create_permits_table.php" />
         <option value="$PROJECT_DIR$/app/database/migrations/2015_09_22_113530_create_users_table.php" />
@@ -274,7 +148,21 @@
         <option value="$PROJECT_DIR$/app/database/seeds/BanksTableSeeder.php" />
         <option value="$PROJECT_DIR$/app/database/seeds/ClinicsTableSeeder.php" />
         <option value="$PROJECT_DIR$/app/database/seeds/RolesTableSeeder.php" />
+        <option value="$PROJECT_DIR$/app/routes.php" />
+        <option value="$PROJECT_DIR$/app/controllers/ConfigController.php" />
+        <option value="$PROJECT_DIR$/app/filters.php" />
+        <option value="$PROJECT_DIR$/app/views/config/index.blade.php" />
+        <option value="$PROJECT_DIR$/app/views/tuition/sections/children.php" />
+        <option value="$PROJECT_DIR$/app/views/tuition/sections/payments.blade.php" />
+        <option value="$PROJECT_DIR$/app/database/seeds/GradesTableSeeder.php" />
+        <option value="$PROJECT_DIR$/app/database/migrations/2015_09_22_113937_create_children_table.php" />
         <option value="$PROJECT_DIR$/app/database/seeds/DatabaseSeeder.php" />
+        <option value="$PROJECT_DIR$/app/controllers/TuitionsController.php" />
+        <option value="$PROJECT_DIR$/app/views/tuition/new.blade.php" />
+        <option value="$PROJECT_DIR$/app/database/migrations/2015_09_22_113756_create_parents_table.php" />
+        <option value="$PROJECT_DIR$/app/views/tuition/sections/children.blade.php" />
+        <option value="$PROJECT_DIR$/app/views/tuition/sections/family.blade.php" />
+        <option value="$PROJECT_DIR$/app/views/tuition/sections/parents.blade.php" />
       </list>
     </option>
   </component>
@@ -380,6 +268,94 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="colegio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Colegio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tuition" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="colegio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Colegio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tuition" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sections" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="colegio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Colegio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="colegio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Colegio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="models" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -446,6 +422,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="colegio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Colegio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controllers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -453,7 +447,7 @@
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="FullScreen" value="false" />
   </component>
@@ -502,7 +496,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1370" height="744" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33587787" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -513,7 +507,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33006537" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33006537" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -548,84 +542,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/.bowerrc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/robots.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.env.local.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.8846154">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/config/local/database.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="7.8461537">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/config/local/app.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.692307">
-          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/User.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.9615384">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/config/app.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.9230769">
-          <caret line="126" column="0" selection-start-line="126" selection-start-column="0" selection-end-line="126" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/database/migrations/2015_09_22_113706_create_families_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8550296">
-          <caret line="18" column="40" selection-start-line="18" selection-start-column="40" selection-end-line="18" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/database/migrations/2015_09_22_113756_create_parents_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.79881656">
-          <caret line="21" column="33" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/database/migrations/2015_09_22_113937_create_children_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.52071005">
-          <caret line="21" column="41" selection-start-line="21" selection-start-column="41" selection-end-line="21" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/models/Family.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -706,14 +622,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/UsersController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.827957">
-          <caret line="13" column="5" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../NUT/app/views/sessions/create.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.21326165">
@@ -770,22 +678,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/SessionsController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.3405018">
-          <caret line="45" column="1" selection-start-line="45" selection-start-column="1" selection-end-line="45" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/routes.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.461538">
-          <caret line="31" column="85" selection-start-line="31" selection-start-column="85" selection-end-line="31" selection-end-column="85" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/lib/phpstorm.jar!/resources/html5-schema/html5/web-forms.rnc">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="3.202046">
@@ -810,39 +702,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/home.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.13483146">
-          <caret line="3" column="22" selection-start-line="0" selection-start-column="0" selection-end-line="31" selection-end-column="5" />
-          <folding>
-            <element signature="e#179#203#0#HTML" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/TuitionsController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.2692308">
-          <caret line="23" column="30" selection-start-line="23" selection-start-column="30" selection-end-line="23" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/sessions/create.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.28651685">
           <caret line="36" column="16" selection-start-line="36" selection-start-column="16" selection-end-line="36" selection-end-column="161" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/tuition/new.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-27.423077">
-          <caret line="43" column="37" selection-start-line="43" selection-start-column="37" selection-end-line="43" selection-end-column="37" />
-          <folding>
-            <element signature="e#179#203#0#HTML" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -870,10 +734,42 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/database/migrations/2015_09_22_215925_create_clinics_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6200608">
+          <caret line="16" column="37" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/database/migrations/2015_09_22_215601_create_permissions_table.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.1320753">
+        <state vertical-scroll-proportion="0.4874552">
           <caret line="17" column="35" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/database/seeds/RolesTableSeeder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.09139785">
+          <caret line="3" column="22" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/database/seeds/PermissionsTableSeeder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.39605734">
+          <caret line="13" column="28" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/database/seeds/ClinicsTableSeeder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.06403013">
+          <caret line="2" column="24" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="24" />
           <folding />
         </state>
       </provider>
@@ -886,30 +782,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/database/migrations/2015_09_22_220012_create_banks_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.962264">
-          <caret line="17" column="35" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/database/seeds/BanksTableSeeder.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-69.96154">
-          <caret line="107" column="0" selection-start-line="107" selection-start-column="0" selection-end-line="107" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/database/migrations/2015_09_22_215925_create_clinics_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6200608">
-          <caret line="16" column="37" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/models/Role.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -918,42 +790,172 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/database/migrations/2015_09_22_220012_create_banks_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.39548022">
+          <caret line="17" column="35" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/database/seeds/BanksTableSeeder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="3.2598567">
+          <caret line="107" column="0" selection-start-line="107" selection-start-column="0" selection-end-line="107" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/filters.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.2893258">
+          <caret line="48" column="3" selection-start-line="48" selection-start-column="3" selection-end-line="48" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/UsersController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6207865">
+          <caret line="13" column="5" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/SessionsController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-13.384615">
+          <caret line="45" column="1" selection-start-line="45" selection-start-column="1" selection-end-line="45" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/ConfigController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.42977527">
+          <caret line="12" column="42" selection-start-line="12" selection-start-column="42" selection-end-line="12" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/routes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.769231">
+          <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/database/migrations/2015_09_22_114136_create_grades_table.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.1923075">
+        <state vertical-scroll-proportion="0.36235955">
           <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/database/seeds/ClinicsTableSeeder.php">
+    <entry file="file://$PROJECT_DIR$/app/database/migrations/2015_09_22_113937_create_children_table.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.6415094">
-          <caret line="2" column="24" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="24" />
+        <state vertical-scroll-proportion="-5.4528303">
+          <caret line="21" column="37" selection-start-line="21" selection-start-column="37" selection-end-line="21" selection-end-column="37" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/database/seeds/PermissionsTableSeeder.php">
+    <entry file="file://$PROJECT_DIR$/app/controllers/TuitionsController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.1698112">
-          <caret line="13" column="28" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/database/seeds/RolesTableSeeder.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.9622642">
-          <caret line="3" column="22" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="22" />
+        <state vertical-scroll-proportion="-3.2075472">
+          <caret line="23" column="44" selection-start-line="23" selection-start-column="44" selection-end-line="23" selection-end-column="44" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/database/seeds/DatabaseSeeder.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.69101125">
-          <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+        <state vertical-scroll-proportion="0.9300912">
+          <caret line="18" column="42" selection-start-line="18" selection-start-column="42" selection-end-line="18" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/database/seeds/GradesTableSeeder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.9615384">
+          <caret line="3" column="23" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/tuition/sections/payments.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0">
+          <caret line="0" column="42" selection-start-line="0" selection-start-column="42" selection-end-line="0" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/database/migrations/2015_09_22_113756_create_parents_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4265233">
+          <caret line="20" column="40" selection-start-line="20" selection-start-column="40" selection-end-line="20" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/tuition/sections/family.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.153846">
+          <caret line="14" column="40" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/tuition/sections/children.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.65384614">
+          <caret line="4" column="53" selection-start-line="4" selection-start-column="53" selection-end-line="4" selection-end-column="53" />
+          <folding>
+            <marker date="1442980697016" expanded="true" signature="1076:1293" placeholder="..." />
+            <marker date="1442980697016" expanded="true" signature="1144:1292" placeholder="..." />
+            <marker date="1442980697016" expanded="true" signature="1480:1744" placeholder="..." />
+            <marker date="1442980697016" expanded="true" signature="1576:1709" placeholder="..." />
+            <marker date="1442980697016" expanded="true" signature="1576:1743" placeholder="..." />
+            <marker date="1442980697016" expanded="true" signature="1932:2150" placeholder="..." />
+            <marker date="1442980697016" expanded="true" signature="2030:2149" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/config/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.9749104">
+          <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/home.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3046595">
+          <caret line="10" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="31" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/tuition/new.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="6.6538463">
+          <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
+          <folding>
+            <element signature="e#1244#1273#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/tuition/sections/parents.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3046595">
+          <caret line="10" column="145" selection-start-line="10" selection-start-column="145" selection-end-line="10" selection-end-column="145" />
           <folding />
         </state>
       </provider>

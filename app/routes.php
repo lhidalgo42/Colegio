@@ -30,5 +30,6 @@ Route::resource('sessions', 'SessionsController', ['only' => ['create', 'store',
 Route::group(array('before' => 'auth'), function() {
     Route::get('/',['as' => 'home', 'uses' => 'UsersController@index']);
     Route::get('/tuition/new',['as' => 'tuition','uses' => 'TuitionsController@create']);
+    Route::get('/config',['as' => 'config','uses' => 'ConfigController@index']);
 });
 

@@ -1,34 +1,32 @@
 <?php
 
-class TuitionsController extends \BaseController {
+class ConfigController extends \BaseController {
 
 	/**
 	 * Display a listing of the resource.
-	 * GET /tuitions
+	 * GET /config
 	 *
 	 * @return Response
 	 */
 	public function index()
 	{
-		//
+		return View::make('config.index');
 	}
 
 	/**
 	 * Show the form for creating a new resource.
-	 * GET /tuitions/create
+	 * GET /config/create
 	 *
 	 * @return Response
 	 */
 	public function create()
 	{
-		$grades = Grade::lists('name','id');
-		$banks = Bank::all();
-		return View::make('tuition.new',compact('grades','banks'));
+		//
 	}
 
 	/**
 	 * Store a newly created resource in storage.
-	 * POST /tuitions
+	 * POST /config
 	 *
 	 * @return Response
 	 */
@@ -39,7 +37,7 @@ class TuitionsController extends \BaseController {
 
 	/**
 	 * Display the specified resource.
-	 * GET /tuitions/{id}
+	 * GET /config/{id}
 	 *
 	 * @param  int  $id
 	 * @return Response
@@ -51,7 +49,7 @@ class TuitionsController extends \BaseController {
 
 	/**
 	 * Show the form for editing the specified resource.
-	 * GET /tuitions/{id}/edit
+	 * GET /config/{id}/edit
 	 *
 	 * @param  int  $id
 	 * @return Response
@@ -63,7 +61,7 @@ class TuitionsController extends \BaseController {
 
 	/**
 	 * Update the specified resource in storage.
-	 * PUT /tuitions/{id}
+	 * PUT /config/{id}
 	 *
 	 * @param  int  $id
 	 * @return Response
@@ -75,7 +73,7 @@ class TuitionsController extends \BaseController {
 
 	/**
 	 * Remove the specified resource from storage.
-	 * DELETE /tuitions/{id}
+	 * DELETE /config/{id}
 	 *
 	 * @param  int  $id
 	 * @return Response

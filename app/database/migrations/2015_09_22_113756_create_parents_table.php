@@ -18,6 +18,8 @@ class CreateParentsTable extends Migration {
 			$table->string('rut');
 			$table->string('name');
 			$table->string('lastname');
+			$table->string('lastname2');
+			$table->string('correo');
 			$table->integer('families_id');
 			$table->timestamps();
 		});

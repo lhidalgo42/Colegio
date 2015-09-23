@@ -18,6 +18,8 @@ class CreateChildrenTable extends Migration {
 			$table->string('rut');
 			$table->string('name');
 			$table->string('lastname');
+			$table->string('lastname2');
+			$table->integer('grant');
 			$table->integer('families_id');
 			$table->integer('grades_id');
 			$table->timestamps();
