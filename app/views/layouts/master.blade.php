@@ -1,49 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="icon" href="favicon.ico">
 
-    <title>Colegio Giordano Bruno</title>
+    <title>Giordano Bruno</title>
 
-    <!-- Bootstrap core CSS -->
-    {{HTML::style('http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css')}}
-    {{HTML::style('http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css')}}
-    {{HTML::style('packages/css/bootstrap-datetimepicker.min.css')}}
-    <style>
-        #tabs > a{
-            margin: 10px;
-        }
-    </style>
-    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- Bootstrap Core CSS -->
+    <link href="/packages/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- MetisMenu CSS -->
+    <link href="/packages/metisMenu/dist/metisMenu.min.css" rel="stylesheet">
+
+
+    <link href="http://fullcalendar.io/js/fullcalendar-2.3.2/lib/cupertino/jquery-ui.min.css" rel='stylesheet'>
+
+    <!-- Custom CSS -->
+    <link href="/css/sb-admin-2.css" rel="stylesheet">
+
+    <!-- Morris Charts CSS -->
+    <link href="/packages/morrisjs/morris.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="/packages/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+    <!-- Bootstrap DateTimePicker -->
+    <link href="/packages/eonasdan-bootstrap-datetimepicker/build/css/bootstrap-datetimepicker.min.css" rel="stylesheet"/>
+
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
-    {{HTML::script('http://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js')}}
-    {{HTML::script('http://oss.maxcdn.com/respond/1.4.2/respond.min.js')}}
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
 
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    {{HTML::script('http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js')}}
-    {{HTML::script('http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js')}}
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    {{HTML::script('packages/js/moment-with-locales.js')}}
-    {{HTML::script('packages/js/bootstrap-datetimepicker.js')}}
 
-    {{HTML::script('js/rut.js')}}
+    <!-- jQuery -->
+    <script src="/packages/jquery/dist/jquery.min.js"></script>
 
+    <!-- Bootstrap Core JavaScript -->
+    <script src="/packages/bootstrap/dist/js/bootstrap.min.js"></script>
+
+    <!-- Metis Menu Plugin JavaScript -->
+    <script src="/packages/metisMenu/dist/metisMenu.min.js"></script>
+
+    <!-- Moment Plugin JavaScript -->
+    <script src="/packages/moment/min/moment-with-locales.min.js"></script>
+
+    <!-- Typehead Plugin JavaScript -->
+    <script src="/js/bootstrap-typeahead.min.js"></script>
+
+    <!-- Typehead Plugin JavaScript -->
+    <script src="/packages/eonasdan-bootstrap-datetimepicker/build/js/bootstrap-datetimepicker.min.js"></script>
+
+    <!-- Morris Charts JavaScript -->
+    <script src="/packages/raphael/raphael-min.js"></script>
+    <script src="/packages/morrisjs/morris.min.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="/js/sb-admin-2.js"></script>
 </head>
-<body>
 
-<!-- #############Content##############-->
-<div class="container">
-    @yield('content')
-</div>
-<!-- #############/Content##############-->
+<body>
+@yield('content')
 
 </body>
+
 </html>

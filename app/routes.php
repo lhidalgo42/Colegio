@@ -13,11 +13,11 @@
 
 /*
 |--------------------------------------------------------------------------
-| Sessions and Authentication
+| Routes for Login
 |--------------------------------------------------------------------------
 |
 */
-Route::get('/', ['as' => 'login', 'uses' => 'SessionsController@create']);
+Route::get('/login', ['as' => 'login', 'uses' => 'SessionsController@create']);
 Route::get('/logout', ['as' => 'logout', 'uses' => 'SessionsController@destroy']);
 Route::resource('sessions', 'SessionsController', ['only' => ['create', 'store', 'destroy']]);
 
@@ -28,28 +28,7 @@ Route::resource('sessions', 'SessionsController', ['only' => ['create', 'store',
 |
 */
 Route::group(array('before' => 'auth'), function() {
-    Route::get('/select',['as' => 'home', 'uses' => 'UsersController@index']); // Select
+    Route::get('/',['as' => 'home', 'uses' => 'UsersController@index']);
+    Route::get('/tuition/new',['as' => 'tuition','uses' => 'TuitionsController@create']);
 });
 
-/*
-|--------------------------------------------------------------------------
-| Matriculate Pages
-|--------------------------------------------------------------------------
-|
-*/
-Route::group(array('before' => 'auth'), function() {
-    Route::get('/matriculate', 'MatriculateController@index'); // Opciones de Matricula
-    Route::get('/matriculate/new', 'MatriculateController@create'); // Crear Matricula
-    Route::post('/matriculate/review', 'MatriculateController@finish'); // Revisar la Matricula Creada
-    Route::get('/matriculate/review', 'MatriculateController@review'); // Ver las Matriculas Listado
-    Route::get('/matriculate/reset', 'MatriculateController@reset'); // Ver las Matriculas Listado
-});
-/*
-|--------------------------------------------------------------------------
-| Consultas Ajax
-|--------------------------------------------------------------------------
-|
-*/
-Route::group(array('before' => 'auth'), function() {
-    Route::post('/ajax/step/{step}', 'AjaxController@MatriculateStep');
-});

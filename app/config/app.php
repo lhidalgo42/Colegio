@@ -122,8 +122,7 @@ return array(
 		'Illuminate\View\ViewServiceProvider',
 		'Illuminate\Workbench\WorkbenchServiceProvider',
         'Laracasts\Validation\ValidationServiceProvider',
-        'Barryvdh\DomPDF\ServiceProvider',
-        'Freshwork\ChileanBundle\Laravel\ChileanBundleServiceProvider'
+		'Way\Generators\GeneratorsServiceProvider'
 
 
 
@@ -192,8 +191,7 @@ return array(
 		'Str'               => 'Illuminate\Support\Str',
 		'URL'               => 'Illuminate\Support\Facades\URL',
 		'Validator'         => 'Illuminate\Support\Facades\Validator',
-		'View'              => 'Illuminate\Support\Facades\View',
-        'PDF'               => 'Barryvdh\DomPDF\Facade'
+		'View'              => 'Illuminate\Support\Facades\View'
 
 	),
 

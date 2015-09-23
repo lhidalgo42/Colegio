@@ -1,32 +1,32 @@
 <?php
 
-class UsersController extends \BaseController {
+class TuitionsController extends \BaseController {
 
 	/**
 	 * Display a listing of the resource.
-	 * GET /users
+	 * GET /tuitions
 	 *
 	 * @return Response
 	 */
 	public function index()
 	{
-        return View::make('home');
-    }
+		//
+	}
 
 	/**
 	 * Show the form for creating a new resource.
-	 * GET /users/create
+	 * GET /tuitions/create
 	 *
 	 * @return Response
 	 */
 	public function create()
 	{
-		//
+		return View::make('tuition.new');
 	}
 
 	/**
 	 * Store a newly created resource in storage.
-	 * POST /users
+	 * POST /tuitions
 	 *
 	 * @return Response
 	 */
@@ -37,7 +37,7 @@ class UsersController extends \BaseController {
 
 	/**
 	 * Display the specified resource.
-	 * GET /users/{id}
+	 * GET /tuitions/{id}
 	 *
 	 * @param  int  $id
 	 * @return Response
@@ -49,7 +49,7 @@ class UsersController extends \BaseController {
 
 	/**
 	 * Show the form for editing the specified resource.
-	 * GET /users/{id}/edit
+	 * GET /tuitions/{id}/edit
 	 *
 	 * @param  int  $id
 	 * @return Response
@@ -61,7 +61,7 @@ class UsersController extends \BaseController {
 
 	/**
 	 * Update the specified resource in storage.
-	 * PUT /users/{id}
+	 * PUT /tuitions/{id}
 	 *
 	 * @param  int  $id
 	 * @return Response
@@ -73,7 +73,7 @@ class UsersController extends \BaseController {
 
 	/**
 	 * Remove the specified resource from storage.
-	 * DELETE /users/{id}
+	 * DELETE /tuitions/{id}
 	 *
 	 * @param  int  $id
 	 * @return Response

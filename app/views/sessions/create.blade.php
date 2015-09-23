@@ -1,59 +1,54 @@
-
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="utf-8">
-    <title>Colegio Giordano Bruno</title>
+    <title>Login</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/packages/bootstrap/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="/css/index.css">
-    <link rel="stylesheet" href="/packages/sweetalert/lib/sweet-alert.css">
+    <meta charset="UTF-8" />
 
-    <!-- Le styles -->
+    <link rel="icon" type="image/ico" href="/images/favicon.ico" />
+
+    <link href="/packages/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/packages/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/login.css" />
     <style>
-        .form-signin {
-            background-image: url('/img/bg_nav_left.png');
-            background-repeat: no-repeat;
-        }
     </style>
-    <!-- le js -->
-    <script src="/packages/jquery/dist/jquery.min.js"></script>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="/packages/jquery/dist/jquery.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="/packages/bootstrap/dist/js/bootstrap.min.js"></script>
-    <script src="/packages/sweetalert/lib/sweet-alert.min.js"></script>
+    <script type="text/javascript" src="js/login.js"></script>
+
 </head>
 <body>
-
-
-
-
-<!-- #############Content##############-->
-
-
-<div class="container-fluid content">
-
-
-{{ Form::open(['route'=> 'sessions.store','class' => 'form-signin']) }}
-    <fieldset style="margin: 35px;">
-        <div class="form-group" style="text-align: center;">
-            {{Form::text('rut',Input::old('rut'),array('class' => 'form-control','id' => 'rut', 'placeholder' => 'Rut','maxlength' => 15,'autofocus'))}}
-        </div>
-        <div class="form-group" style="text-align: center;">
-            {{Form::password('password',Input::old('password'),array('class' => 'form-control','id' => 'password', 'placeholder' => 'Contraseña'))}}
-        </div>
-            <div class="checkbox">
-                <label>
-                    {{ Form::checkbox('remember', true) }} <strong>Recordarme</strong>
-                </label>
+<div class="container">
+    <div class="row">
+        <div class="col-sm-6 col-md-4 col-md-offset-4">
+            <div class="account-wall">
+                <img class="profile-img" src="img/avatar_2x.png" alt="">
+                {{ Form::open(['route'=> 'sessions.store','class' => 'form-signin']) }}
+                {{ Form::email('email', Input::old('email'), array('placeholder' => 'Correo','class' => 'form-control','id' => 'mail','required','autofocus')) }}
+                {{ Form::password('password',array('placeholder' => 'Contraseña','class' => 'form-control', 'id' => 'pass' ,'required')) }}
+                <div class="input-group">
+                    {{ Form::checkbox('remember', true,array('class' => 'form-control')) }} Recordarme
+                </div>
+                <button class="btn btn-lg btn-primary btn-block" type="submit" id="login">Sign in</button>
+                @if(Session::has('error'))
+                    <span class="text-danger">{{Session::get('error')}}</span>
+                @endif
+                <a href="#" class="pull-right need-help">Olvide mi Clave ? </a><span class="clearfix"></span>
+                {{ Form::close() }}
             </div>
-        <button class="btn btn-primary btn-lg btn-block" type="submit" style="text-align: center;"><strong>Ingresar</strong></button>
-
-        @if(Session::has('error'))
-            <script>
-                sweetAlert("Oops...", '{{Session::get('error')}}', "error");
-            </script>
-        @endif
-    </fieldset>
-{{ Form::close() }}
+            <a href="#" class="text-center new-account">Create an account </a>
+        </div>
+    </div>
 </div>
 </body>
 </html>
