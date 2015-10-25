@@ -23,8 +23,9 @@
                 <div class="col-md-3">
                 <ul class="nav nav-pills nav-stacked">
                     <li class="active"><a data-toggle="tab" href="#users"><i class="fa fa-users"></i> Usuarios </a></li>
-                    <li><a data-toggle="tab" href="#grades">Menu 1</a></li>
-                    <li><a data-toggle="tab" href="#clinics">Menu 2</a></li>
+                    <li><a data-toggle="tab" href="#roles"><i class="fa fa-users"></i> Roles </a></li>
+                    <li><a data-toggle="tab" href="#prices"><i class="fa fa-usd"></i> Valores</a></li>
+                    <li><a data-toggle="tab" href="#reports"><i class="fa fa-file-text-o"></i> Reportes</a></li>
                 </ul>
                 </div>
                 <div class="col-md-9">
@@ -32,11 +33,15 @@
                     <div id="users" class="tab-pane fade in active">
                         <h4 class="page-header">Usuarios</h4>
                     </div>
-                    <div id="grades" class="tab-pane fade">
+                    <div id="prices" class="tab-pane fade">
                         <h3>Menu 1</h3>
                         <p>Some content in menu 1.</p>
                     </div>
-                    <div id="clinics" class="tab-pane fade">
+                    <div id="roles" class="tab-pane fade">
+                        <h3>Menu 2</h3>
+                        <p>Some content in menu 2.</p>
+                    </div>
+                    <div id="reports" class="tab-pane fade">
                         <h3>Menu 2</h3>
                         <p>Some content in menu 2.</p>
                     </div>

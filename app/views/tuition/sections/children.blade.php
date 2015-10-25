@@ -2,7 +2,7 @@
     <div class="col-md-3">
         <ul class="nav nav-pills nav-stacked" id="childrens-tab">
             @foreach(range(1,4) as $number)
-            <li @if($number==1) class="active" @endif><a data-toggle="tab" data-children="alumno{{$number}}" href="#alumno{{$number}}">Alumno {{$number}}</a></li>
+            <li @if($number == 1) class="active" @endif><a data-toggle="tab" data-children="alumno{{$number}}" href="#alumno{{$number}}">Alumno {{$number}}</a></li>
             @endforeach
         </ul>
     </div>
@@ -34,7 +34,7 @@
                 <div class="form-group col-md-12">
                     <label for="alumno{{$number}}Lastname2">Apellido Materno</label>
                     {{ Form::text('alumno'.$number.'Lastname2', Input::old('alumno'.$number.'Lastname2'),
-                    array('placeholder' => 'Apellido Materno','class' => 'form-control','id' => 'alumno'.$number.'
+                    array('placeholder' => 'Apellido Materno','class' => 'form-control alumnoLastname2','id' => 'alumno'.$number.'
                     Lastname2')) }}
                 </div>
                 <div class="form-group col-md-12">

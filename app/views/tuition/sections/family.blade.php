@@ -3,7 +3,7 @@
     <a href="#" data-toggle="tooltip" data-placement="top"
        title="El Nombre de la Familia se concantena con el apellido de los padres."><i
                 class="fa fa-question-circle"></i></a>
-    {{ Form::text('family', Input::old('family'), array('placeholder' => 'Nombre de la Familia','class' => 'form-control','id' => 'family','disabled' => 'disabled','required' => 'required')) }}
+    {{ Form::text('family', Input::old('family'), array('placeholder' => 'Nombre de la Familia','class' => 'form-control','id' => 'family','readonly' => 'readonly')) }}
 </div>
 <div class="form-group col-md-6">
     <label for="ae">Apoderado Económicos</label>

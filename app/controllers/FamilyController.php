@@ -1,23 +1,22 @@
 <?php
 
-class UsersController extends \BaseController {
+class FamilyController extends \BaseController {
 
 	/**
 	 * Display a listing of the resource.
-	 * GET /users
+	 * GET /family
 	 *
 	 * @return Response
 	 */
 	public function index()
 	{
-		$families = Family::orderBy('created_at','DESC')->take(5)->get();
-		return $families;
-        return View::make('home');
-    }
+		$families = Family::all();
+		return View::make('tuition.families',compact('families'));
+	}
 
 	/**
 	 * Show the form for creating a new resource.
-	 * GET /users/create
+	 * GET /family/create
 	 *
 	 * @return Response
 	 */
@@ -28,7 +27,7 @@ class UsersController extends \BaseController {
 
 	/**
 	 * Store a newly created resource in storage.
-	 * POST /users
+	 * POST /family
 	 *
 	 * @return Response
 	 */
@@ -39,19 +38,19 @@ class UsersController extends \BaseController {
 
 	/**
 	 * Display the specified resource.
-	 * GET /users/{id}
+	 * GET /family/{id}
 	 *
 	 * @param  int  $id
 	 * @return Response
 	 */
 	public function show($id)
 	{
-		//
+		$family = Family::find($id);
 	}
 
 	/**
 	 * Show the form for editing the specified resource.
-	 * GET /users/{id}/edit
+	 * GET /family/{id}/edit
 	 *
 	 * @param  int  $id
 	 * @return Response
@@ -63,7 +62,7 @@ class UsersController extends \BaseController {
 
 	/**
 	 * Update the specified resource in storage.
-	 * PUT /users/{id}
+	 * PUT /family/{id}
 	 *
 	 * @param  int  $id
 	 * @return Response
@@ -75,7 +74,7 @@ class UsersController extends \BaseController {
 
 	/**
 	 * Remove the specified resource from storage.
-	 * DELETE /users/{id}
+	 * DELETE /family/{id}
 	 *
 	 * @param  int  $id
 	 * @return Response

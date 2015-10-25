@@ -1,25 +1,16 @@
 <div id="payments"  class="tab-pane fade">
-    <div class="col-md-3">
-        <ul class="nav nav-pills">
-            <li class="active"><a data-toggle="pill" href="#home">Home</a></li>
-            <li><a data-toggle="pill" href="#menu1">Menu 1</a></li>
-            <li><a data-toggle="pill" href="#menu2">Menu 2</a></li>
+    <div class="row">
+        <ul class="nav nav-pills nav-justified" style="margin-bottom: 15px;">
+            <li class="active"><a data-toggle="pill" href="#pagoMatricula" datatype="pagoMatricula">Pago de Matricula / Clinica</a></li>
+            <li><a data-toggle="pill" href="#pagoMensualidad" datatype="PagoMensualidad">Pago Mensualidad</a></li>
+            <li><a data-toggle="pill" href="#cuotaIncorporacion" datatype="CuotaIncorporacion">Cuota de Incorporacion</a></li>
         </ul>
     </div>
-    <div class="col-md-9">
+    <div class="row">
         <div class="tab-content">
-            <div id="home" class="tab-pane fade in active">
-                <h3>HOME</h3>
-                <p>Some content.</p>
-            </div>
-            <div id="menu1" class="tab-pane fade">
-                <h3>Menu 1</h3>
-                <p>Some content in menu 1.</p>
-            </div>
-            <div id="menu2" class="tab-pane fade">
-                <h3>Menu 2</h3>
-                <p>Some content in menu 2.</p>
-            </div>
+            @include('tuition.sections.payments.matricula')
+            @include('tuition.sections.payments.mensualidad')
+            @include('tuition.sections.payments.incorporacion')
         </div>
     </div>
 

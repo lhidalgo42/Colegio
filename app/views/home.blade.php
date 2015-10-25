@@ -20,7 +20,9 @@
 
             <!-- /.row -->
             <div class="row">
-
+                <div class="col-md-6">
+                    <h3>Ultimas Matriculas Hechas</h3>
+                </div>
             </div>
             <!-- /.row -->
         </div>

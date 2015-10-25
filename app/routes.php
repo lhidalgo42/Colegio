@@ -30,6 +30,21 @@ Route::resource('sessions', 'SessionsController', ['only' => ['create', 'store',
 Route::group(array('before' => 'auth'), function() {
     Route::get('/',['as' => 'home', 'uses' => 'UsersController@index']);
     Route::get('/tuition/new',['as' => 'tuition','uses' => 'TuitionsController@create']);
+    Route::post('/tuition/new',['uses' => 'TuitionsController@store']);
     Route::get('/config',['as' => 'config','uses' => 'ConfigController@index']);
+    Route::get('/families',['as' => 'families','uses' => 'FamilyController@index']);
+});
+
+
+
+/*
+|--------------------------------------------------------------------------
+| Ajax Routes
+|--------------------------------------------------------------------------
+|
+*/
+Route::group(array('before' => 'auth'), function() {
+Route::post('/grade/price','GradesController@find');
+
 });
 

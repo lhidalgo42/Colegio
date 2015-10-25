@@ -28,10 +28,9 @@
                 <!-- /.nav-second-level -->
             </li>
             <li>
-                <a href="/therapists"><i class="fa fa-users"></i> Terapeutas</a>
+                <a href="/reports"><i class="fa fa-file-excel-o"></i> Reportes</a>
             </li>
-
-            <li>
+           <li>
                 <a href="/config"><i class="fa fa-gear fa-fw"></i> Configuraciones</a>
             </li>
             <li>

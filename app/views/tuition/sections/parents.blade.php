@@ -1,6 +1,6 @@
 <div id="parents" class="tab-pane fade in active">
     <div class="col-md-6">
-        <h3 class="page-header text-center">Madre</h3>
+        <h3 class="page-header text-center" id="mama">Madre</h3>
 
         <div class="form-group">
             <label for="motherRUT">RUT</label>
@@ -25,7 +25,7 @@
 
     </div>
     <div class="col-md-6">
-        <h3 class="page-header text-center">Padre </h3>
+        <h3 class="page-header text-center" id="papa">Padre </h3>
 
         <div class="form-group">
             <label for="fatherRUT">RUT</label>
@@ -49,3 +49,21 @@
         </div>
     </div>
 </div>
+<script>
+    $("#motherName").keyup(function(){
+        $("#mama").html($(this).val().toUpperCase()+' '+$("#motherLastname").val().toUpperCase())
+    });
+    $("#motherLastname").keyup(function(){
+        $("#mama").html($("#motherName").val().toUpperCase()+' '+$(this).val().toUpperCase());
+        $("#family").val($("#fatherLastname").val().toUpperCase()+' '+$(this).val().toUpperCase())
+        $(".alumnoLastname2").val($(this).val().toUpperCase())
+    });
+    $("#fatherName").keyup(function(){
+        $("#papa").html($(this).val().toUpperCase()+' '+$("#fatherLastname").val().toUpperCase())
+    });
+    $("#fatherLastname").keyup(function(){
+        $("#papa").html($("#fatherName").val().toUpperCase()+' '+$(this).val().toUpperCase());
+        $("#family").val($(this).val().toUpperCase()+' '+$("#motherLastname").val().toUpperCase())
+        $(".alumnoLastname").val($(this).val().toUpperCase())
+    })
+</script>

@@ -17,9 +17,10 @@ class CreateParentsTable extends Migration {
 			$table->increments('id');
 			$table->string('rut');
 			$table->string('name');
+			$table->boolean('sex');
 			$table->string('lastname');
 			$table->string('lastname2');
-			$table->string('correo');
+			$table->string('email');
 			$table->integer('families_id');
 			$table->timestamps();
 		});
